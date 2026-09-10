@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Jupyter and editors
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Build and packaging output
+build/
+dist/
+site/
+tmp/
+*.log
+
+# KDP generated deliverables and intermediate files
+publication/kdp/build/
+publication/kdp/output/
+publication/kdp/*.aux
+publication/kdp/*.epub
+publication/kdp/*.pdf
+publication/kdp/*.toc
+
