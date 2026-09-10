@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+quality_status,string,category,True carton condition,defective or sound,None
+camera_signal,string,category,Camera inspection result,alert or no_alert,None
+carton_count,integer,cartons,Natural-frequency count in the joint cell,Non-negative and cells sum to 1000,None
+total_cartons,integer,cartons,Reference population size,Always 1000,None
+quality_group_total,integer,cartons,Total cartons sharing the row's quality status,20 defective or 980 sound,None
+signal_group_total,integer,cartons,Total cartons sharing the row's camera signal,67 alert or 933 no_alert,None
+joint_probability,float,probability,Probability of the joint quality and signal cell,carton_count divided by 1000,None
+signal_given_quality,float,probability,Conditional probability of camera signal given quality,carton_count divided by quality_group_total,None
+quality_given_signal,float,probability,Conditional probability of quality given camera signal,carton_count divided by signal_group_total,None
+posterior_defect_if_alert,float,probability,Defect probability conditional on the row's signal,18/67 for alert or 2/933 for no_alert,None

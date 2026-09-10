@@ -1,0 +1,14 @@
+field,type,unit_or_values,description
+distributor_id,string,D46-001 to D46-600,Unique synthetic distributor identifier
+territory,categorical,West Indonesia; Central Indonesia; East Indonesia,Illustrative prespecified reporting territory
+prior_90d_sales_kidr,number,thousand Indonesian rupiah,Pre-treatment sales known at assignment time
+tenure_years,number,years,Pre-treatment distributor tenure known at assignment time
+coached,integer,0 or 1,Observed coaching assignment
+assignment_propensity,number,0 to 1,True probability used by the synthetic treatment generator
+estimated_propensity,number,0 to 1,Probability fitted from released pre-treatment sales and tenure
+ipw_ate,number,positive,Inverse-probability weight for the average treatment effect
+potential_sales_no_coaching_kidr,number,thousand Indonesian rupiah,Synthetic no-coaching potential outcome retained only for educational benchmarking
+potential_sales_coaching_kidr,number,thousand Indonesian rupiah,Synthetic coaching potential outcome retained only for educational benchmarking
+observed_next_90d_sales_kidr,number,thousand Indonesian rupiah,Observed potential outcome selected by the coaching assignment
+simulated_individual_effect_kidr,number,thousand Indonesian rupiah,Known synthetic coaching effect equal to eight
+overlap_supported,integer,0 or 1,One when estimated propensity lies from 0.05 through 0.95

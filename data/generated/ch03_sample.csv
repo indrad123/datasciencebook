@@ -1,0 +1,7 @@
+cartons_per_pallet,pallet_count,sample_cartons,pallet_cartons,shipment_total_cartons,meets_1200_carton_plan
+0,18,120,0,120,False
+20,18,120,360,480,False
+40,18,120,720,840,False
+60,18,120,1080,1200,True
+80,18,120,1440,1560,False
+100,18,120,1800,1920,False

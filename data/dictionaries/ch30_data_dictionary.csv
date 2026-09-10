@@ -1,0 +1,12 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+check_id,text,identifier,Synthetic quality-check identifier,Unique,none
+quality_dimension,text,category,Data-quality dimension tested,uniqueness; completeness; consistency; validity; freshness; reconciliation,none
+field_or_table,text,name,Field or table under test,Non-empty,none
+scope,text,population,Population or slice used as denominator,Non-empty,none
+violation_count,integer,records,Records violating the expectation,Zero or greater,none
+denominator,integer,records,Records or snapshots evaluated,Greater than zero,none
+violation_rate,decimal,proportion,Violation count divided by denominator,0 to 1 inclusive,none
+maximum_allowed_rate,decimal,proportion,Highest acceptable violation rate,0 to 1 inclusive,none
+severity,text,category,Operational severity when the rule fails,warning; error; blocker,none
+status,text,category,Comparison of violation rate with threshold,pass; fail,none
+response,text,instruction,Documented operational response to the rule,Non-empty,none

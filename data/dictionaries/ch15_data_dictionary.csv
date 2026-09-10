@@ -1,0 +1,9 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+order_id,string,identifier,Unique synthetic order identifier,ORD-001 through ORD-120,none
+order_date,date,date,Order date during the illustrative reporting month,ISO 8601 date from 2026-04-01 through 2026-04-30,none
+region,categorical,region,Indonesian operating region assigned to the order,Jakarta; West Java; Central Java; East Java,none
+product_category,categorical,category,Product family ordered,Noodles; Coffee; Tea; Spices; Ready-to-drink,none
+units,integer,units,Number of units in the order,Integer from 1 through 6,none
+delivery_days,integer,days,Elapsed whole days from dispatch to delivery,Integer from 1 through 9,none
+promised_days,integer,days,Illustrative service promise used for classification,4 for every row,none
+delivery_status,categorical,status,Whether delivery met the four-day promise,On time when delivery_days is at most 4; otherwise Late,none

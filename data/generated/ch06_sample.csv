@@ -1,0 +1,18 @@
+example_id,outer_index,inner_index,term_label,term_value,weight,weighted_term,included
+warehouse_shipments,1,,Jakarta,120,,,yes
+warehouse_shipments,2,,Singapore,150,,,yes
+warehouse_shipments,3,,Sydney,90,,,yes
+warehouse_shipments,4,,Rotterdam,140,,,yes
+odd_number_summand,1,,2(1) + 1,3,,,yes
+odd_number_summand,2,,2(2) + 1,5,,,yes
+odd_number_summand,3,,2(3) + 1,7,,,yes
+odd_number_summand,4,,2(4) + 1,9,,,yes
+weighted_revenue,1,,Coffee,20,10,200,yes
+weighted_revenue,2,,Tea,30,5,150,yes
+weighted_revenue,3,,Spices,25,8,200,yes
+product_region_matrix,1,1,q_11,10,,,yes
+product_region_matrix,1,2,q_12,12,,,yes
+product_region_matrix,1,3,q_13,8,,,yes
+product_region_matrix,2,1,q_21,7,,,yes
+product_region_matrix,2,2,q_22,9,,,yes
+product_region_matrix,2,3,q_23,11,,,yes

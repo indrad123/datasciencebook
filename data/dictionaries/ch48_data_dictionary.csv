@@ -1,0 +1,19 @@
+field,type,unit_or_values,description
+cohort_week,date,YYYY-MM-DD Monday,Start date of the weekly prediction cohort
+model_version,categorical,v1.1-shadow; v1.1-canary; v1.1; v1.0,Immutable serving or evaluation version label
+release_stage,categorical,shadow; canary; full; rollback; recovered,Controlled release lifecycle state
+decision_traffic_share,number,0 to 1,Share of decisions influenced by the listed version
+requests,integer,requests,Scoring requests received during the week
+error_count,integer,requests,Requests that failed the production contract
+error_rate,number,0 to 1,Error count divided by requests
+p95_latency_ms,number,milliseconds,95th percentile end-to-end scoring latency
+route_distance_missing_rate,number,0 to 1,Share of route-distance inputs missing
+route_distance_psi,number,nonnegative,Population stability index against the approved reference sample
+mean_late_risk_score,number,0 to 1,Mean predicted late-delivery risk
+intervention_action_rate,number,0 to 1,Share of shipments sent to the intervention queue
+mature_label_join_coverage,number,0 to 1,Share of cohort predictions joined to outcomes after the label horizon closed
+mature_cohort_brier_score,number or blank,0 to 1,Probability score reported only when label coverage is at least 0.80
+alert_state,categorical,ok; warning; critical,Highest state across documented system quality and drift thresholds
+incident_id,string or blank,INC-48-001,Identifier carried from detection through closure
+response_action,categorical,playbook action,Owned response recorded for the weekly state
+accountable_owner,string,ML operations lead,Role accountable for triage and follow-through

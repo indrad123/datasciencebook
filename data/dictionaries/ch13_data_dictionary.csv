@@ -1,0 +1,8 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+store_id,string,identifier,Unique synthetic store identifier,Pattern ID-region-sequence,None
+region,string,category,Indonesian operating region,"Java, Sumatra, Kalimantan, Sulawesi, or Eastern Indonesia",None
+store_format,string,category,Retail operating format,"Neighbourhood, Supermarket, or Kiosk",None
+floor_area_m2,integer,square metres,Synthetic store floor area,Positive integer,None
+weekly_sales_units,integer,product units,Synthetic August 2026 weekly sales volume,At least 100 units,None
+in_sampling_frame,string,yes/no,Whether the master-store frame covers the target-population store,yes or no,None
+selected_sample,string,yes/no,Whether the store belongs to the reproducible simple random sample of 50 frame-covered stores,yes or no,None

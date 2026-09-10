@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+reading_id,string,identifier,Unique calibration-reading identifier,Pattern M-three digits,None
+warehouse_code,string,nominal category,Illustrative warehouse label,"JKT, SBY, MDN, or MKS; arithmetic is not meaningful",None
+satisfaction_level,integer,ordinal level,Illustrative ordered rating,1 to 5; equal gaps are not assumed,None
+ambient_temperature_c,float,degrees Celsius,Illustrative interval-scale ambient temperature,Recorded to 0.01 degree,None
+reference_weight_kg,float,kilograms,Calibrated ratio-scale reference weight,10 to 100 kilograms,None
+biased_scale_weight_kg,float,kilograms,Observed weight with 0.4 kg systematic offset plus random noise,Positive,None
+biased_signed_error_kg,float,kilograms,Biased observed value minus reference value,May be positive or negative,None
+unbiased_scale_weight_kg,float,kilograms,Observed weight with zero imposed offset and random noise,Positive,None
+unbiased_signed_error_kg,float,kilograms,Unbiased observed value minus reference value,May be positive or negative,None
+biased_absolute_error_kg,float,kilograms,Absolute biased signed error,Non-negative,None

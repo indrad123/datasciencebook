@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+example_id,string,not applicable,Identifier for the vector teaching example,warehouse_profiles; magnitude_unit_vector,None
+component_position,integer,index,One-based position that fixes component order,Positive integer,None
+component_label,string,not applicable,Meaning of the component within its example,Non-empty text,None
+vector_a_value,integer,example-specific,Component value for vector a or the magnitude teaching vector,Integer,None
+vector_b_value,integer,example-specific,Component value for vector b or zero as the magnitude-example origin,Integer,None
+difference_a_minus_b,integer,example-specific,Directed component difference from vector b to vector a,vector_a_value - vector_b_value,None
+absolute_difference,integer,example-specific,Component contribution before summing Manhattan distance,Absolute value of difference_a_minus_b,None
+squared_difference,integer,squared example-specific unit,Component contribution before taking the Euclidean square root,difference_a_minus_b squared,None
+component_product,integer,squared example-specific unit,Component contribution to the dot product,vector_a_value * vector_b_value,None

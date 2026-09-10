@@ -1,0 +1,20 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+package_id,string,false,primary,,Stable synthetic package identifier,PKG-001 through PKG-061
+package_type,string,false,,,Role of the package in the example,routine_fit or unusual_scored_after_fit
+fit_in_autoencoder,boolean,false,,,Whether the row contributed to fitting the autoencoder,true for PKG-001 through PKG-060 only
+signal_1,number,false,,standardized signal units,First observed package signal,finite
+signal_2,number,false,,standardized signal units,Second observed package signal,finite
+signal_3,number,false,,standardized signal units,Third observed signal correlated with the first two for routine packages,finite
+latent_1,number,false,,latent units,First coordinate from the fitted linear encoder,finite
+latent_2,number,false,,latent units,Second coordinate from the fitted linear encoder,finite
+reconstructed_signal_1,number,false,,standardized signal units,Decoder reconstruction of signal one,finite
+reconstructed_signal_2,number,false,,standardized signal units,Decoder reconstruction of signal two,finite
+reconstructed_signal_3,number,false,,standardized signal units,Decoder reconstruction of signal three,finite
+residual_signal_1,number,false,,standardized signal units,Observed minus reconstructed signal one,signal_1 minus reconstructed_signal_1
+residual_signal_2,number,false,,standardized signal units,Observed minus reconstructed signal two,signal_2 minus reconstructed_signal_2
+residual_signal_3,number,false,,standardized signal units,Observed minus reconstructed signal three,signal_3 minus reconstructed_signal_3
+reconstruction_mse,number,false,,mean squared signal units,Mean squared residual across the three signals,non-negative
+routine_error_p95,number,false,,mean squared signal units,Illustrative 95th percentile fitted only on the 60 routine-package errors,exactly the same repeated threshold on every row
+illustrative_review_flag,boolean,false,,,Whether reconstruction error exceeds the routine 95th percentile,true exactly when reconstruction_mse is greater than routine_error_p95
+descending_error_rank,integer,false,,rank,Error rank from largest to smallest with stable tie handling,1 to 61
+data_seed,integer,false,,,Seed for the routine package generator,exactly 56

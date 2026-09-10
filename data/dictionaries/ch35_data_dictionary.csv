@@ -1,0 +1,16 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+model,text,category,Evaluated prediction rule,all_negative; late_model,none
+threshold,decimal,probability,Score cutoff for an alert,0 to 1,missing for all-negative baseline
+tp,integer,shipments,Late shipments correctly alerted,nonnegative,none
+fp,integer,shipments,On-time shipments incorrectly alerted,nonnegative,none
+fn,integer,shipments,Late shipments not alerted,nonnegative,none
+tn,integer,shipments,On-time shipments correctly left unalerted,nonnegative,none
+alerts,integer,shipments,Total predicted-positive workload,tp + fp,none
+accuracy,decimal,proportion,Overall fraction classified correctly,(tp + tn) / total,none
+precision,decimal,proportion,Fraction of alerts that are truly late,tp / (tp + fp); zero if no alerts,none
+recall,decimal,proportion,Fraction of late shipments alerted,tp / (tp + fn),none
+specificity,decimal,proportion,Fraction of on-time shipments not alerted,tn / (tn + fp),none
+f1,decimal,unitless,Harmonic mean of precision and recall,2 * precision * recall / (precision + recall),none
+balanced_accuracy,decimal,proportion,Mean of recall and specificity,(recall + specificity) / 2,none
+expected_cost_idr,integer,IDR,Illustrative false-alert and missed-delay cost,40000 * fp + 500000 * fn,none
+capacity_feasible,text,indicator,Meets at most 100 alerts and minimum recall 0.70,yes; no,none

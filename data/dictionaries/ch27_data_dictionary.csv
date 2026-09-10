@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+task,text,category,Prediction example,demand; transit,none
+observation_id,text,identifier,Synthetic observation identifier,Unique,none
+split,text,category,Model-development partition,train; test,none
+feature_value,number,task-dependent predictor,Promised transit hours for transit task,positive,blank for demand baseline
+actual_value,number,task-dependent outcome,Observed demand cases or actual transit hours,positive,none
+baseline_prediction,number,task-dependent outcome,Simple training-only constant prediction,positive,blank for training rows
+learned_prediction,number,task-dependent outcome,Prediction from simple learned relationship,positive,blank for training rows
+absolute_error_baseline,number,task-dependent outcome,Absolute baseline prediction error,nonnegative,blank for training rows
+absolute_error_learned,number,task-dependent outcome,Absolute learned-model prediction error,nonnegative,blank for training rows

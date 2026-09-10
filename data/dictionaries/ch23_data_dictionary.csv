@@ -1,0 +1,8 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+scenario,text,category,Pattern illustrated by the row,linear; curvature; unequal_spread; influence,none
+route_id,text,identifier,Synthetic route identifier,Unique within dataset,none
+distance_km,number,kilometres,Route distance used as predictor,positive,none
+delivery_time_minutes,number,minutes,Observed delivery time used as outcome,positive,none
+fitted_time_minutes,number,minutes,OLS fitted outcome within the row scenario,Computed for the three 30-row scenarios,blank for influence demonstration
+residual_minutes,number,minutes,Observed minus fitted delivery time,delivery_time_minutes minus fitted_time_minutes,blank for influence demonstration
+is_influential_demo,text,flag,Marks the added high-leverage sensitivity point,Yes; No,none

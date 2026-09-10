@@ -1,0 +1,241 @@
+distributor_id,retention_program,region,cohort_origin_month,entry_month,observed_followup_months,exit_month,event_observed,end_state,censor_reason,at_risk_month_12,at_risk_month_24
+D45-001,standard,Indonesia,0,0,19.042,19.042,1,churn,,1,0
+D45-002,standard,Southeast Asia,0,0,21.740,21.740,1,churn,,1,0
+D45-003,standard,Middle East,0,0,33.430,33.430,0,right_censored,administrative_study_end,1,1
+D45-004,standard,Europe,0,0,8.716,8.716,1,churn,,0,0
+D45-005,standard,Indonesia,0,0,29.077,29.077,0,right_censored,administrative_study_end,1,1
+D45-006,standard,Southeast Asia,0,3,4.942,7.942,1,churn,,0,0
+D45-007,standard,Middle East,0,0,7.093,7.093,1,churn,,0,0
+D45-008,standard,Europe,0,0,2.824,2.824,1,churn,,0,0
+D45-009,standard,Indonesia,0,0,9.594,9.594,1,churn,,0,0
+D45-010,standard,Southeast Asia,0,0,17.914,17.914,1,churn,,1,0
+D45-011,standard,Middle East,0,0,10.256,10.256,1,churn,,0,0
+D45-012,standard,Europe,0,6,20.961,26.961,0,right_censored,administrative_study_end,1,0
+D45-013,standard,Indonesia,0,0,20.154,20.154,0,right_censored,administrative_study_end,1,0
+D45-014,standard,Southeast Asia,0,0,35.659,35.659,0,right_censored,administrative_study_end,1,1
+D45-015,standard,Middle East,0,0,17.933,17.933,1,churn,,1,0
+D45-016,standard,Europe,0,0,22.782,22.782,0,right_censored,administrative_study_end,1,0
+D45-017,standard,Indonesia,0,0,26.879,26.879,0,right_censored,administrative_study_end,1,1
+D45-018,standard,Southeast Asia,0,3,10.172,13.172,1,churn,,0,0
+D45-019,standard,Middle East,0,0,6.543,6.543,1,churn,,0,0
+D45-020,standard,Europe,0,0,3.893,3.893,1,churn,,0,0
+D45-021,standard,Indonesia,0,0,1.793,1.793,1,churn,,0,0
+D45-022,standard,Southeast Asia,0,0,8.256,8.256,1,churn,,0,0
+D45-023,standard,Middle East,0,0,26.604,26.604,0,right_censored,administrative_study_end,1,1
+D45-024,standard,Europe,0,6,1.813,7.813,1,churn,,0,0
+D45-025,standard,Indonesia,0,0,18.241,18.241,0,right_censored,administrative_study_end,1,0
+D45-026,standard,Southeast Asia,0,0,9.409,9.409,1,churn,,0,0
+D45-027,standard,Middle East,0,0,3.432,3.432,1,churn,,0,0
+D45-028,standard,Europe,0,0,14.905,14.905,1,churn,,1,0
+D45-029,standard,Indonesia,0,0,14.581,14.581,1,churn,,1,0
+D45-030,standard,Southeast Asia,0,3,4.061,7.061,1,churn,,0,0
+D45-031,standard,Middle East,0,0,20.971,20.971,0,right_censored,administrative_study_end,1,0
+D45-032,standard,Europe,0,0,9.845,9.845,1,churn,,0,0
+D45-033,standard,Indonesia,0,0,35.001,35.001,0,right_censored,administrative_study_end,1,1
+D45-034,standard,Southeast Asia,0,0,35.738,35.738,0,right_censored,administrative_study_end,1,1
+D45-035,standard,Middle East,0,0,20.551,20.551,1,churn,,1,0
+D45-036,standard,Europe,0,6,18.042,24.042,0,right_censored,administrative_study_end,1,0
+D45-037,standard,Indonesia,0,0,6.527,6.527,1,churn,,0,0
+D45-038,standard,Southeast Asia,0,0,1.237,1.237,1,churn,,0,0
+D45-039,standard,Middle East,0,0,12.162,12.162,1,churn,,1,0
+D45-040,standard,Europe,0,0,4.972,4.972,1,churn,,0,0
+D45-041,standard,Indonesia,0,0,10.021,10.021,1,churn,,0,0
+D45-042,standard,Southeast Asia,0,3,26.486,29.486,1,churn,,1,1
+D45-043,standard,Middle East,0,0,30.226,30.226,1,churn,,1,1
+D45-044,standard,Europe,0,0,1.874,1.874,1,churn,,0,0
+D45-045,standard,Indonesia,0,0,0.168,0.168,1,churn,,0,0
+D45-046,standard,Southeast Asia,0,0,12.563,12.563,1,churn,,1,0
+D45-047,standard,Middle East,0,0,19.873,19.873,1,churn,,1,0
+D45-048,standard,Europe,0,6,15.896,21.896,1,churn,,1,0
+D45-049,standard,Indonesia,0,0,11.644,11.644,1,churn,,0,0
+D45-050,standard,Southeast Asia,0,0,13.847,13.847,1,churn,,1,0
+D45-051,standard,Middle East,0,0,8.124,8.124,1,churn,,0,0
+D45-052,standard,Europe,0,0,6.741,6.741,1,churn,,0,0
+D45-053,standard,Indonesia,0,0,1.990,1.990,1,churn,,0,0
+D45-054,standard,Southeast Asia,0,3,19.633,22.633,1,churn,,1,0
+D45-055,standard,Middle East,0,0,20.574,20.574,0,right_censored,administrative_study_end,1,0
+D45-056,standard,Europe,0,0,27.156,27.156,0,right_censored,administrative_study_end,1,1
+D45-057,standard,Indonesia,0,0,1.312,1.312,1,churn,,0,0
+D45-058,standard,Southeast Asia,0,0,23.457,23.457,0,right_censored,administrative_study_end,1,0
+D45-059,standard,Middle East,0,0,29.340,29.340,0,right_censored,administrative_study_end,1,1
+D45-060,standard,Europe,0,6,2.870,8.870,1,churn,,0,0
+D45-061,standard,Indonesia,0,0,23.637,23.637,1,churn,,1,0
+D45-062,standard,Southeast Asia,0,0,29.554,29.554,1,churn,,1,1
+D45-063,standard,Middle East,0,0,6.779,6.779,1,churn,,0,0
+D45-064,standard,Europe,0,0,16.047,16.047,1,churn,,1,0
+D45-065,standard,Indonesia,0,0,17.357,17.357,1,churn,,1,0
+D45-066,standard,Southeast Asia,0,3,5.072,8.072,1,churn,,0,0
+D45-067,standard,Middle East,0,0,29.736,29.736,0,right_censored,administrative_study_end,1,1
+D45-068,standard,Europe,0,0,14.884,14.884,1,churn,,1,0
+D45-069,standard,Indonesia,0,0,4.736,4.736,1,churn,,0,0
+D45-070,standard,Southeast Asia,0,0,13.657,13.657,1,churn,,1,0
+D45-071,standard,Middle East,0,0,15.382,15.382,1,churn,,1,0
+D45-072,standard,Europe,0,6,8.881,14.881,1,churn,,0,0
+D45-073,standard,Indonesia,0,0,6.880,6.880,1,churn,,0,0
+D45-074,standard,Southeast Asia,0,0,1.306,1.306,1,churn,,0,0
+D45-075,standard,Middle East,0,0,21.791,21.791,0,right_censored,administrative_study_end,1,0
+D45-076,standard,Europe,0,0,21.746,21.746,0,right_censored,administrative_study_end,1,0
+D45-077,standard,Indonesia,0,0,32.140,32.140,0,right_censored,administrative_study_end,1,1
+D45-078,standard,Southeast Asia,0,3,23.871,26.871,0,right_censored,administrative_study_end,1,0
+D45-079,standard,Middle East,0,0,18.485,18.485,0,right_censored,administrative_study_end,1,0
+D45-080,standard,Europe,0,0,11.078,11.078,1,churn,,0,0
+D45-081,standard,Indonesia,0,0,20.135,20.135,0,right_censored,administrative_study_end,1,0
+D45-082,standard,Southeast Asia,0,0,26.652,26.652,0,right_censored,administrative_study_end,1,1
+D45-083,standard,Middle East,0,0,32.204,32.204,1,churn,,1,1
+D45-084,standard,Europe,0,6,11.166,17.166,1,churn,,0,0
+D45-085,standard,Indonesia,0,0,16.710,16.710,1,churn,,1,0
+D45-086,standard,Southeast Asia,0,0,4.932,4.932,1,churn,,0,0
+D45-087,standard,Middle East,0,0,8.078,8.078,1,churn,,0,0
+D45-088,standard,Europe,0,0,27.213,27.213,0,right_censored,administrative_study_end,1,1
+D45-089,standard,Indonesia,0,0,11.190,11.190,1,churn,,0,0
+D45-090,standard,Southeast Asia,0,3,2.653,5.653,1,churn,,0,0
+D45-091,standard,Middle East,0,0,29.044,29.044,0,right_censored,administrative_study_end,1,1
+D45-092,standard,Europe,0,0,0.001,0.001,1,churn,,0,0
+D45-093,standard,Indonesia,0,0,21.754,21.754,1,churn,,1,0
+D45-094,standard,Southeast Asia,0,0,10.926,10.926,1,churn,,0,0
+D45-095,standard,Middle East,0,0,26.848,26.848,0,right_censored,administrative_study_end,1,1
+D45-096,standard,Europe,0,6,18.696,24.696,0,right_censored,administrative_study_end,1,0
+D45-097,standard,Indonesia,0,0,3.968,3.968,1,churn,,0,0
+D45-098,standard,Southeast Asia,0,0,27.628,27.628,0,right_censored,administrative_study_end,1,1
+D45-099,standard,Middle East,0,0,19.362,19.362,0,right_censored,administrative_study_end,1,0
+D45-100,standard,Europe,0,0,5.794,5.794,1,churn,,0,0
+D45-101,standard,Indonesia,0,0,3.623,3.623,1,churn,,0,0
+D45-102,standard,Southeast Asia,0,3,20.812,23.812,0,right_censored,administrative_study_end,1,0
+D45-103,standard,Middle East,0,0,21.759,21.759,0,right_censored,administrative_study_end,1,0
+D45-104,standard,Europe,0,0,28.375,28.375,0,right_censored,administrative_study_end,1,1
+D45-105,standard,Indonesia,0,0,24.058,24.058,1,churn,,1,1
+D45-106,standard,Southeast Asia,0,0,11.434,11.434,1,churn,,0,0
+D45-107,standard,Middle East,0,0,28.304,28.304,1,churn,,1,1
+D45-108,standard,Europe,0,6,28.226,34.226,1,churn,,1,1
+D45-109,standard,Indonesia,0,0,14.339,14.339,1,churn,,1,0
+D45-110,standard,Southeast Asia,0,0,10.292,10.292,1,churn,,0,0
+D45-111,standard,Middle East,0,0,3.325,3.325,1,churn,,0,0
+D45-112,standard,Europe,0,0,7.393,7.393,1,churn,,0,0
+D45-113,standard,Indonesia,0,0,4.144,4.144,1,churn,,0,0
+D45-114,standard,Southeast Asia,0,3,19.079,22.079,0,right_censored,administrative_study_end,1,0
+D45-115,standard,Middle East,0,0,24.874,24.874,0,right_censored,administrative_study_end,1,1
+D45-116,standard,Europe,0,0,4.571,4.571,1,churn,,0,0
+D45-117,standard,Indonesia,0,0,30.687,30.687,0,right_censored,administrative_study_end,1,1
+D45-118,standard,Southeast Asia,0,0,19.673,19.673,0,right_censored,administrative_study_end,1,0
+D45-119,standard,Middle East,0,0,34.572,34.572,0,right_censored,administrative_study_end,1,1
+D45-120,standard,Europe,0,6,8.378,14.378,1,churn,,0,0
+D45-121,enhanced,Indonesia,0,0,30.355,30.355,0,right_censored,administrative_study_end,1,1
+D45-122,enhanced,Southeast Asia,0,0,19.405,19.405,0,right_censored,administrative_study_end,1,0
+D45-123,enhanced,Middle East,0,0,12.922,12.922,1,churn,,1,0
+D45-124,enhanced,Europe,0,0,18.940,18.940,0,right_censored,administrative_study_end,1,0
+D45-125,enhanced,Indonesia,0,0,22.310,22.310,0,right_censored,administrative_study_end,1,0
+D45-126,enhanced,Southeast Asia,0,3,26.414,29.414,0,right_censored,administrative_study_end,1,1
+D45-127,enhanced,Middle East,0,0,19.090,19.090,1,churn,,1,0
+D45-128,enhanced,Europe,0,0,30.163,30.163,0,right_censored,administrative_study_end,1,1
+D45-129,enhanced,Indonesia,0,0,24.647,24.647,0,right_censored,administrative_study_end,1,1
+D45-130,enhanced,Southeast Asia,0,0,20.080,20.080,0,right_censored,administrative_study_end,1,0
+D45-131,enhanced,Middle East,0,0,12.197,12.197,1,churn,,1,0
+D45-132,enhanced,Europe,0,6,8.714,14.714,1,churn,,0,0
+D45-133,enhanced,Indonesia,0,0,31.270,31.270,0,right_censored,administrative_study_end,1,1
+D45-134,enhanced,Southeast Asia,0,0,31.336,31.336,0,right_censored,administrative_study_end,1,1
+D45-135,enhanced,Middle East,0,0,27.445,27.445,0,right_censored,administrative_study_end,1,1
+D45-136,enhanced,Europe,0,0,22.823,22.823,0,right_censored,administrative_study_end,1,0
+D45-137,enhanced,Indonesia,0,0,20.688,20.688,0,right_censored,administrative_study_end,1,0
+D45-138,enhanced,Southeast Asia,0,3,31.552,34.552,0,right_censored,administrative_study_end,1,1
+D45-139,enhanced,Middle East,0,0,32.574,32.574,0,right_censored,administrative_study_end,1,1
+D45-140,enhanced,Europe,0,0,18.050,18.050,0,right_censored,administrative_study_end,1,0
+D45-141,enhanced,Indonesia,0,0,12.491,12.491,1,churn,,1,0
+D45-142,enhanced,Southeast Asia,0,0,27.725,27.725,1,churn,,1,1
+D45-143,enhanced,Middle East,0,0,34.114,34.114,0,right_censored,administrative_study_end,1,1
+D45-144,enhanced,Europe,0,6,22.477,28.477,1,churn,,1,0
+D45-145,enhanced,Indonesia,0,0,14.951,14.951,1,churn,,1,0
+D45-146,enhanced,Southeast Asia,0,0,18.819,18.819,1,churn,,1,0
+D45-147,enhanced,Middle East,0,0,25.218,25.218,0,right_censored,administrative_study_end,1,1
+D45-148,enhanced,Europe,0,0,28.045,28.045,0,right_censored,administrative_study_end,1,1
+D45-149,enhanced,Indonesia,0,0,29.298,29.298,0,right_censored,administrative_study_end,1,1
+D45-150,enhanced,Southeast Asia,0,3,11.185,14.185,1,churn,,0,0
+D45-151,enhanced,Middle East,0,0,33.517,33.517,0,right_censored,administrative_study_end,1,1
+D45-152,enhanced,Europe,0,0,24.022,24.022,0,right_censored,administrative_study_end,1,1
+D45-153,enhanced,Indonesia,0,0,11.693,11.693,1,churn,,0,0
+D45-154,enhanced,Southeast Asia,0,0,34.086,34.086,0,right_censored,administrative_study_end,1,1
+D45-155,enhanced,Middle East,0,0,12.341,12.341,1,churn,,1,0
+D45-156,enhanced,Europe,0,6,18.952,24.952,0,right_censored,administrative_study_end,1,0
+D45-157,enhanced,Indonesia,0,0,19.345,19.345,0,right_censored,administrative_study_end,1,0
+D45-158,enhanced,Southeast Asia,0,0,18.717,18.717,0,right_censored,administrative_study_end,1,0
+D45-159,enhanced,Middle East,0,0,16.073,16.073,1,churn,,1,0
+D45-160,enhanced,Europe,0,0,32.484,32.484,0,right_censored,administrative_study_end,1,1
+D45-161,enhanced,Indonesia,0,0,30.033,30.033,0,right_censored,administrative_study_end,1,1
+D45-162,enhanced,Southeast Asia,0,3,35.025,38.025,0,right_censored,administrative_study_end,1,1
+D45-163,enhanced,Middle East,0,0,33.935,33.935,0,right_censored,administrative_study_end,1,1
+D45-164,enhanced,Europe,0,0,18.199,18.199,1,churn,,1,0
+D45-165,enhanced,Indonesia,0,0,20.192,20.192,0,right_censored,administrative_study_end,1,0
+D45-166,enhanced,Southeast Asia,0,0,26.634,26.634,0,right_censored,administrative_study_end,1,1
+D45-167,enhanced,Middle East,0,0,31.805,31.805,0,right_censored,administrative_study_end,1,1
+D45-168,enhanced,Europe,0,6,20.066,26.066,0,right_censored,administrative_study_end,1,0
+D45-169,enhanced,Indonesia,0,0,18.760,18.760,1,churn,,1,0
+D45-170,enhanced,Southeast Asia,0,0,21.677,21.677,0,right_censored,administrative_study_end,1,0
+D45-171,enhanced,Middle East,0,0,34.017,34.017,0,right_censored,administrative_study_end,1,1
+D45-172,enhanced,Europe,0,0,13.479,13.479,1,churn,,1,0
+D45-173,enhanced,Indonesia,0,0,33.041,33.041,0,right_censored,administrative_study_end,1,1
+D45-174,enhanced,Southeast Asia,0,3,15.025,18.025,1,churn,,1,0
+D45-175,enhanced,Middle East,0,0,16.709,16.709,1,churn,,1,0
+D45-176,enhanced,Europe,0,0,18.684,18.684,0,right_censored,administrative_study_end,1,0
+D45-177,enhanced,Indonesia,0,0,29.923,29.923,0,right_censored,administrative_study_end,1,1
+D45-178,enhanced,Southeast Asia,0,0,0.631,0.631,1,churn,,0,0
+D45-179,enhanced,Middle East,0,0,5.038,5.038,1,churn,,0,0
+D45-180,enhanced,Europe,0,6,31.271,37.271,0,right_censored,administrative_study_end,1,1
+D45-181,enhanced,Indonesia,0,0,3.079,3.079,1,churn,,0,0
+D45-182,enhanced,Southeast Asia,0,0,21.615,21.615,0,right_censored,administrative_study_end,1,0
+D45-183,enhanced,Middle East,0,0,6.621,6.621,1,churn,,0,0
+D45-184,enhanced,Europe,0,0,28.406,28.406,0,right_censored,administrative_study_end,1,1
+D45-185,enhanced,Indonesia,0,0,4.640,4.640,1,churn,,0,0
+D45-186,enhanced,Southeast Asia,0,3,23.039,26.039,1,churn,,1,0
+D45-187,enhanced,Middle East,0,0,24.407,24.407,0,right_censored,administrative_study_end,1,1
+D45-188,enhanced,Europe,0,0,31.846,31.846,0,right_censored,administrative_study_end,1,1
+D45-189,enhanced,Indonesia,0,0,24.891,24.891,1,churn,,1,1
+D45-190,enhanced,Southeast Asia,0,0,2.296,2.296,1,churn,,0,0
+D45-191,enhanced,Middle East,0,0,21.597,21.597,0,right_censored,administrative_study_end,1,0
+D45-192,enhanced,Europe,0,6,6.629,12.629,1,churn,,0,0
+D45-193,enhanced,Indonesia,0,0,23.168,23.168,0,right_censored,administrative_study_end,1,0
+D45-194,enhanced,Southeast Asia,0,0,3.934,3.934,1,churn,,0,0
+D45-195,enhanced,Middle East,0,0,34.732,34.732,0,right_censored,administrative_study_end,1,1
+D45-196,enhanced,Europe,0,0,27.153,27.153,0,right_censored,administrative_study_end,1,1
+D45-197,enhanced,Indonesia,0,0,2.704,2.704,1,churn,,0,0
+D45-198,enhanced,Southeast Asia,0,3,10.752,13.752,1,churn,,0,0
+D45-199,enhanced,Middle East,0,0,16.218,16.218,1,churn,,1,0
+D45-200,enhanced,Europe,0,0,22.429,22.429,0,right_censored,administrative_study_end,1,0
+D45-201,enhanced,Indonesia,0,0,23.630,23.630,0,right_censored,administrative_study_end,1,0
+D45-202,enhanced,Southeast Asia,0,0,32.633,32.633,0,right_censored,administrative_study_end,1,1
+D45-203,enhanced,Middle East,0,0,23.410,23.410,0,right_censored,administrative_study_end,1,0
+D45-204,enhanced,Europe,0,6,27.828,33.828,0,right_censored,administrative_study_end,1,1
+D45-205,enhanced,Indonesia,0,0,28.028,28.028,1,churn,,1,1
+D45-206,enhanced,Southeast Asia,0,0,29.005,29.005,1,churn,,1,1
+D45-207,enhanced,Middle East,0,0,16.377,16.377,1,churn,,1,0
+D45-208,enhanced,Europe,0,0,8.973,8.973,1,churn,,0,0
+D45-209,enhanced,Indonesia,0,0,26.419,26.419,1,churn,,1,1
+D45-210,enhanced,Southeast Asia,0,3,6.240,9.240,1,churn,,0,0
+D45-211,enhanced,Middle East,0,0,2.999,2.999,1,churn,,0,0
+D45-212,enhanced,Europe,0,0,29.574,29.574,0,right_censored,administrative_study_end,1,1
+D45-213,enhanced,Indonesia,0,0,29.466,29.466,0,right_censored,administrative_study_end,1,1
+D45-214,enhanced,Southeast Asia,0,0,24.770,24.770,1,churn,,1,1
+D45-215,enhanced,Middle East,0,0,30.935,30.935,0,right_censored,administrative_study_end,1,1
+D45-216,enhanced,Europe,0,6,6.169,12.169,1,churn,,0,0
+D45-217,enhanced,Indonesia,0,0,10.694,10.694,1,churn,,0,0
+D45-218,enhanced,Southeast Asia,0,0,7.469,7.469,1,churn,,0,0
+D45-219,enhanced,Middle East,0,0,0.906,0.906,1,churn,,0,0
+D45-220,enhanced,Europe,0,0,19.400,19.400,0,right_censored,administrative_study_end,1,0
+D45-221,enhanced,Indonesia,0,0,25.723,25.723,0,right_censored,administrative_study_end,1,1
+D45-222,enhanced,Southeast Asia,0,3,31.022,34.022,0,right_censored,administrative_study_end,1,1
+D45-223,enhanced,Middle East,0,0,30.909,30.909,0,right_censored,administrative_study_end,1,1
+D45-224,enhanced,Europe,0,0,13.689,13.689,1,churn,,1,0
+D45-225,enhanced,Indonesia,0,0,6.967,6.967,1,churn,,0,0
+D45-226,enhanced,Southeast Asia,0,0,27.594,27.594,0,right_censored,administrative_study_end,1,1
+D45-227,enhanced,Middle East,0,0,3.450,3.450,1,churn,,0,0
+D45-228,enhanced,Europe,0,6,12.955,18.955,1,churn,,1,0
+D45-229,enhanced,Indonesia,0,0,12.682,12.682,1,churn,,1,0
+D45-230,enhanced,Southeast Asia,0,0,28.607,28.607,0,right_censored,administrative_study_end,1,1
+D45-231,enhanced,Middle East,0,0,11.885,11.885,1,churn,,0,0
+D45-232,enhanced,Europe,0,0,29.098,29.098,0,right_censored,administrative_study_end,1,1
+D45-233,enhanced,Indonesia,0,0,7.844,7.844,1,churn,,0,0
+D45-234,enhanced,Southeast Asia,0,3,31.583,34.583,0,right_censored,administrative_study_end,1,1
+D45-235,enhanced,Middle East,0,0,10.347,10.347,1,churn,,0,0
+D45-236,enhanced,Europe,0,0,1.149,1.149,1,churn,,0,0
+D45-237,enhanced,Indonesia,0,0,5.517,5.517,1,churn,,0,0
+D45-238,enhanced,Southeast Asia,0,0,31.187,31.187,0,right_censored,administrative_study_end,1,1
+D45-239,enhanced,Middle East,0,0,10.865,10.865,1,churn,,0,0
+D45-240,enhanced,Europe,0,6,2.397,8.397,1,churn,,0,0

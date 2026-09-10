@@ -1,0 +1,9 @@
+step_order,step,input_rows,output_rows,affected_values,status,audit_note
+1,Validate source schema,10240,10240,0,passed,Required raw columns present; snapshot hash retained
+2,Standardise order ID,10240,10240,83,passed,Trim and uppercase; raw identifier retained
+3,Parse quantity,10240,10240,10118,warning,122 placeholders or invalid forms flagged; none changed to zero
+4,Map city,10240,10240,417,warning,Versioned mapping applied; 6 unknown values preserved
+5,Preserve currency,10240,10240,10240,passed,"IDR, AED, and USD amounts retained; conversion requires a dated rate"
+6,Parse declared dates,10240,10240,10240,passed,Approved formats and source timezones only
+7,Select latest revision,10240,9870,370,passed,Highest valid revision selected deterministically
+8,Validate final schema,9870,9870,0,passed,No blocking failures; analysis-ready snapshot hashed

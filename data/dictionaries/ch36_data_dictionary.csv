@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+shipment_id,text,identifier,Synthetic shipment identifier,S01 through S10,none
+distance_100km,integer,100 kilometres,Route distance expressed in hundreds of kilometres,positive,none
+port_congestion,integer,indicator,Whether port congestion is present,0; 1,none
+priority,integer,indicator,Whether priority handling is used,0; 1,none
+observed_hours,decimal,hours,Observed delivery duration,predicted_hours + residual_hours,none
+predicted_hours,decimal,hours,Linear-regression prediction,18 + 0.7 * distance_100km + 5.2 * port_congestion - 2.1 * priority,none
+residual_hours,decimal,hours,Signed linear-model residual,observed_hours - predicted_hours,none
+logit_score,decimal,log odds,Linear predictor supplied to the logistic function,real number,none
+late_probability,decimal,probability,Logistic transformation of logit_score,1 / (1 + exp(-logit_score)),none
+alert_at_0_60,integer,indicator,Alert decision at probability threshold 0.60,1 when late_probability is at least 0.60; otherwise 0,none

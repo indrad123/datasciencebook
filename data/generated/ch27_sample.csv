@@ -1,0 +1,17 @@
+task,observation_id,split,feature_value,actual_value,baseline_prediction,learned_prediction,absolute_error_baseline,absolute_error_learned
+demand,D-1,train,,100,,,,
+demand,D-2,train,,110,,,,
+demand,D-3,train,,90,,,,
+demand,D-4,train,,120,,,,
+demand,D-5,test,,108,105,107,3,1
+demand,D-6,test,,130,105,124,25,6
+transit,T-01,train,12,19.16,,,,
+transit,T-02,train,14,24.52,,,,
+transit,T-03,train,16,25.88,,,,
+transit,T-04,train,18,30.24,,,,
+transit,T-05,train,20,29.6,,,,
+transit,T-06,train,22,30.96,,,,
+transit,T-07,train,24,36.32,,,,
+transit,T-08,test,26,37.68,28.1,37.68,9.58,0.0
+transit,T-09,test,28,42.04,28.1,40.04,13.94,2.0
+transit,T-10,test,30,41.4,28.1,42.4,13.3,1.0

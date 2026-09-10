@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+replicate_id,integer,identifier,Repeated-sample sequence,1 through 200,none
+sample_size,integer,stores,Independent observations contributing to each mean,40 for every replicate,none
+sample_mean_weekly_units,number,units per week,Estimated mean from one simulated sample,Generated from the exact sampling distribution,none
+standard_error_units,number,units per week,Known population SD of 180 divided by square root of 40,Constant and positive,none
+margin_of_error_units,number,units per week,1.96 times standard error for the teaching interval,Constant and positive,none
+ci_lower_units,number,units per week,Sample mean minus margin of error,Less than ci_upper_units,none
+ci_upper_units,number,units per week,Sample mean plus margin of error,Greater than ci_lower_units,none
+covers_population_mean,categorical,indicator,Whether the interval contains the fixed value 1000,Yes; No,none
+population_mean_weekly_units,number,units per week,Fixed synthetic population mean used to assess coverage,1000 for every replicate,none

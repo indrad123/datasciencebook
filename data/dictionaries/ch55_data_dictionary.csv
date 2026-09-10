@@ -1,0 +1,27 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+query_position,integer,false,composite,token index,Zero-based position receiving information,0 to 4
+query_token,string,false,,,Distributor-message token at the query position,stok or kopi or belum or tiba or jakarta
+source_position,integer,false,composite,token index,Zero-based candidate source position,0 to 4
+source_token,string,false,,,Distributor-message token supplying key and value,stok or kopi or belum or tiba or jakarta
+query_component_1,number,false,,embedding units,First query-vector component,finite
+query_component_2,number,false,,embedding units,Second query-vector component,finite
+key_component_1,number,false,,embedding units,First source key-vector component,finite
+key_component_2,number,false,,embedding units,Second source key-vector component,finite
+value_component_1,number,false,,value units,First source value-vector component,0 or 2 or 4 or 6 or 8
+value_component_2,number,false,,value units,Second source value-vector component,1 or 3 or 5 or 7 or 9
+scaled_compatibility_score,number,false,,score,Query-key dot product divided by square root of two,finite
+unmasked_attention_weight,number,false,,probability,Row-wise softmax weight without masking,0 to 1 and sums to 1 by query
+causal_allowed,boolean,false,,,Whether the source is visible to the query under a lower-triangular causal mask,true exactly when source_position is no greater than query_position
+causal_attention_weight,number,false,,probability,Masked row-wise softmax weight,0 for future positions and sums to 1 by query
+unmasked_output_component_1,number,false,,value units,First component of the unmasked weighted-value sum,repeated by query
+unmasked_output_component_2,number,false,,value units,Second component of the unmasked weighted-value sum,repeated by query
+causal_output_component_1,number,false,,value units,First component of the causal weighted-value sum,repeated by query
+causal_output_component_2,number,false,,value units,Second component of the causal weighted-value sum,repeated by query
+position_sin_1,number,false,,position units,First sinusoidal position component for the source token,sine at the longest represented frequency
+position_cos_1,number,false,,position units,Second sinusoidal position component for the source token,cosine paired with position_sin_1
+position_sin_2,number,false,,position units,Third sinusoidal position component for the source token,sine at the middle represented frequency
+position_cos_2,number,false,,position units,Fourth sinusoidal position component for the source token,cosine paired with position_sin_2
+position_sin_3,number,false,,position units,Fifth sinusoidal position component for the source token,sine at the shortest represented frequency
+position_cos_3,number,false,,position units,Sixth sinusoidal position component for the source token,cosine paired with position_sin_3
+attention_dimension,integer,false,,components,Query and key width used for scaling,exactly 2
+score_divisor,number,false,,components square root,Divisor controlling dot-product magnitude,square root of 2

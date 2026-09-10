@@ -1,0 +1,16 @@
+field,type,unit_or_values,description
+shipment_id,string,S47-0001 to S47-1200,Unique synthetic shipment identifier
+prediction_date,date,YYYY-MM-DD,Chronological prediction date used to isolate fitting recalibration and final assessment
+split,categorical,train; calibration; test,Partition role with no shipment shared between stages
+route_distance_km,number,kilometres,Route distance available at prediction time
+port_congestion_index,number,0.020 to 0.980,Synthetic current port congestion available at prediction time
+fragile_product,integer,0 or 1,One when the shipment contains a fragile product
+actual_late,integer,0 or 1,One when the synthetic shipment arrived late over the defined horizon
+true_late_probability,number,0 to 1,Latent probability used only to generate the educational outcome
+train_prevalence_baseline,number,0 to 1,Constant late rate estimated only from the training partition
+raw_probability,number,0 to 1,Deliberately overconfident random-forest score before separate Platt recalibration
+calibrated_probability,number,0 to 1,Platt-scaled probability fitted only on the calibration partition
+raw_predicted_late,integer,0 or 1,Raw classification at the illustrative 0.50 threshold
+calibrated_predicted_late,integer,0 or 1,Calibrated classification at the illustrative 0.50 threshold
+raw_brier_contribution,number,0 to 1,Squared probability error for the raw score
+calibrated_brier_contribution,number,0 to 1,Squared probability error for the calibrated score

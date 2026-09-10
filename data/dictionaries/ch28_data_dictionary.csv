@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+shipment_id,text,identifier,Synthetic shipment identifier,Unique,none
+weather_alert,text,category,Weather alert available at dispatch,yes; no,none
+loading_minutes,integer,minutes,Loading duration observed before dispatch,38 to 76,none
+predicted_late_probability,decimal,probability,Calibrated probability of arrival more than 24 hours late,0 to 1 inclusive,none
+actual_late,integer,binary outcome,Whether the shipment arrived more than 24 hours late,0; 1,none
+expedite_cost_units,decimal,illustrative loss units,Cost of expediting,12.00 for this example,none
+late_loss_units,decimal,illustrative loss units,Loss if a standard shipment is late,80.00 for this example,none
+expected_loss_expedite,decimal,illustrative loss units,Expected loss under the simplifying assumption that expediting eliminates late loss,expedite_cost_units,none
+expected_loss_standard,decimal,illustrative loss units,Expected loss without expediting,predicted_late_probability times late_loss_units,none
+recommended_action,text,category,Lower-expected-loss action with equality retained as standard,standard; expedite,none

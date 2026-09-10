@@ -1,0 +1,3 @@
+row_index,resource_label,coffee_units_per_batch,tea_units_per_batch,available_units,coffee_batches_solution,tea_batches_solution,coffee_resource_usage,tea_resource_usage,total_resource_usage,residual_units
+1,Ingredient A,2,1,100,42,16,84,16,100,0
+2,Ingredient B,1,3,90,42,16,42,48,90,0

@@ -1,0 +1,6 @@
+example_id,context,first_value,second_value,first_label,second_label,unit
+ORDER-001,cartons selected,150,200,selected cartons,all cartons,cartons
+LINE-A,quality acceptance,960,1000,acceptable packs,inspected packs,packs
+LINE-B,quality acceptance,1425,1500,acceptable packs,inspected packs,packs
+DEMAND-01,weekly demand change,920,800,new demand,original demand,cases
+DELIVERY-01,on-time delivery,1170,1250,on-time deliveries,all deliveries,deliveries

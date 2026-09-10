@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+x,float,input units,Input value for the square function,0 to 5 in increments of 0.25,None
+square_value,float,squared input units,Function value f(x) = x squared,x squared,None
+exact_derivative,float,output units per input unit,Analytic derivative f prime(x) = 2x,2 * x,None
+forward_difference_h_0_1,float,output units per input unit,Forward finite-difference estimate using h = 0.1,[f(x + 0.1) - f(x)] / 0.1,None
+central_difference_h_0_1,float,output units per input unit,Central finite-difference estimate using h = 0.1,[f(x + 0.1) - f(x - 0.1)] / 0.2,None
+tangent_at_x3,float,squared input units,Tangent-line value at plotted x for the tangent anchored at x = 3,9 + 6 * (x - 3),None
+secant_h_1_0_at_x3,float,squared input units,Secant-line value with anchor x = 3 and h = 1.0,9 + 7 * (x - 3),None
+secant_h_0_5_at_x3,float,squared input units,Secant-line value with anchor x = 3 and h = 0.5,9 + 6.5 * (x - 3),None
+secant_h_0_1_at_x3,float,squared input units,Secant-line value with anchor x = 3 and h = 0.1,9 + 6.1 * (x - 3),None

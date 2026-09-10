@@ -1,0 +1,25 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+modality,string,false,primary,,Data form being compared,Table or Text or Image or Time series
+decision,string,false,,,NRG decision supported by the modality,non-empty
+data_unit,string,false,,,Entity or event represented by one modeling unit,non-empty
+baseline_model,string,false,,,Strong non-deep-learning comparison model,non-empty
+deep_model,string,false,,,Neural candidate appropriate to the modality,non-empty
+split_unit,string,false,,,Entity or time boundary that must stay isolated across partitions,non-empty
+primary_metric,string,false,,,Interpretation of the synthetic quality score,exactly illustrative held-out quality; higher is better
+baseline_quality,number,false,,score,Synthetic held-out quality for the baseline,0 through 1
+deep_quality,number,false,,score,Synthetic held-out quality for the neural candidate,0 through 1
+absolute_gain_points,number,false,,percentage points,Deep quality minus baseline quality multiplied by 100,may be negative
+relative_improvement_pct,number,false,,percent,Deep quality minus baseline quality divided by absolute baseline quality and multiplied by 100,may be negative
+baseline_training_hours,number,false,,hours,Synthetic baseline training time,positive
+deep_training_hours,number,false,,hours,Synthetic neural-candidate training time,positive
+baseline_inference_ms,number,false,,milliseconds,Synthetic baseline inference latency,positive
+deep_inference_ms,number,false,,milliseconds,Synthetic neural-candidate inference latency,positive
+deep_value_per_compute,number,false,,score per hour-log-millisecond,Nonnegative relative improvement fraction divided by deep training hours and log one plus deep latency,non-negative
+preferred_quality_model,string,false,,,Model with the higher synthetic quality score,equal to baseline_model or deep_model
+recommendation,string,false,,,Bounded interpretation of the comparison,retain_strong_baseline or deep_candidate_for_bounded_validation
+architecture_or_representation,string,false,,,Structural representation matched to the modality,non-empty
+leakage_control,string,false,,,Required split or feature boundary,non-empty
+monitoring_focus,string,false,,,Modality-specific production checks,non-empty
+missing_input_fallback,string,false,,,Fallback when the primary modality is unavailable or invalid,non-empty
+comparison_seed,string,false,,,Reproducibility marker,exactly not_applicable_fixed_values
+evidence_scope,string,false,,,Scope limitation for the synthetic comparison,exactly synthetic teaching comparison; not a production benchmark

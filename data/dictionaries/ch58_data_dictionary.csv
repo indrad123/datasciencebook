@@ -1,0 +1,32 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+package_id,string,false,primary,,Stable synthetic package identifier,PKG58-01 through PKG58-12
+prediction_time,datetime,false,,ISO 8601,Prediction timestamp with Jakarta offset,strictly increasing daily timestamps
+model_version,string,false,,,Version of the package-risk model,exactly pkg-risk-0.9.0
+factory,string,false,,,Synthetic factory slice,A or B
+camera_id,string,false,,,Synthetic capture-device identifier,CAM-A1 CAM-A2 CAM-B1 or CAM-B2
+packaging_revision,string,false,,,Packaging design revision,R1 or R2
+input_quality,string,false,,,Capture-quality condition,clear shadow glare or blur
+defect_category,string,false,,,Observed defect category,none seal dent or exposed_product
+actual_defect,integer,false,,binary,Adjudicated package outcome,0 or 1
+risk_probability,number,false,,probability,Model risk score before thresholding,0 through 1
+decision_threshold,number,false,,probability,Action threshold,exactly 0.50
+predicted_defect,integer,false,,binary,Thresholded model decision,1 exactly when risk_probability is at least 0.50
+outcome_label,string,false,,,Confusion-matrix outcome,TN TP FP or FN
+is_error,boolean,false,,,Whether outcome is false positive or false negative,true exactly for FP and FN
+false_negative,boolean,false,,,Whether a defect received a negative prediction,true exactly for FN
+error_mechanism,string,false,,,Synthetic investigation hypothesis,none or a named mechanism
+severity,string,false,,,Illustrative consequence severity,none medium high or critical
+potential_consequence_kidr,number,false,,thousand IDR,Illustrative consequence if the package is missed,non-negative
+expected_harm_kidr,number,false,,thousand IDR,Risk probability multiplied by potential consequence,non-negative
+uncertainty_distance,number,false,,probability,Absolute distance from the 0.50 threshold,0 through 0.50
+uncertainty_review_rank,integer,false,,rank,Stable rank from nearest to farthest threshold,1 through 12
+uncertainty_review_flag,boolean,false,,,Whether selected by the four-case near-threshold queue,true exactly for ranks 1 through 4
+harm_review_rank,integer,false,,rank,Stable rank from highest to lowest expected harm,1 through 12
+harm_review_flag,boolean,false,,,Whether selected by the four-case expected-harm queue,true exactly for ranks 1 through 4
+reviewer_outcome,string,false,,,Human adjudication action,pass or divert
+accountable_owner,string,false,,,Named role accountable for intended use and release,exactly Jakarta Quality Director
+fallback_route,string,false,,,Safe route when the model service or input fails,exactly manual inspection queue
+rollback_defined,boolean,false,,,Whether a tested rollback control is defined,false in this blocked example
+release_ready,boolean,false,,,Whether all required readiness controls are present,false while rollback is missing
+blocking_control,string,false,,,Missing required deployment control,exactly rollback
+data_seed,string,false,,,Reproducibility marker,exactly not_applicable_fixed_values

@@ -1,0 +1,12 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+distributor_id,text,identifier,Synthetic active-distributor identifier,unique D39-prefixed value,none
+designed_profile,text,category,Neutral profile used to construct the educational data,steady_bulk; frequent_broad_mix; campaign_specialist,none
+orders_per_month,decimal,orders per month,Illustrative twelve-month average ordering frequency,positive,none
+broad_mix_share,decimal,proportion,Illustrative share of orders spanning multiple product families,0 to 1,none
+orders_scaled,decimal,standardised coordinate,Scaled ordering-frequency feature used for clustering,approximately -1.5 to 1.4,none
+mix_scaled,decimal,standardised coordinate,Scaled product-mix feature used for clustering,approximately -1.4 to 1.2,none
+assigned_cluster,text,category,Cluster assignment in the released three-cluster partition,steady_bulk; frequent_broad_mix; campaign_specialist,none
+centroid_orders_scaled,decimal,standardised coordinate,Assigned centroid coordinate on ordering frequency,one of -1.10; 1.02; 0.05,none
+centroid_mix_scaled,decimal,standardised coordinate,Assigned centroid coordinate on product mix,one of 0.78; 0.90; -1.12,none
+distance_to_centroid,decimal,Euclidean distance,Distance from the row to its assigned centroid,nonnegative,none
+silhouette_value,decimal,index,Observation silhouette under Euclidean distance for the released partition,-1 to 1,none

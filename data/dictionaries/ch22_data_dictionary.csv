@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+standardized_effect_d,number,standard deviations,Planned difference divided by assumed common SD,0.1; 0.2; 0.4; 0.6; 0.8,none
+effect_delivery_days,number,days,Planned group difference in natural units,standardized_effect_d times four days,none
+sample_size_per_group,integer,observations,Equal allocation planned for each independent group,10 through 200 in increments of 10,none
+total_sample_size,integer,observations,Combined sample size across two groups,Two times sample_size_per_group,none
+alpha_two_sided,number,proportion,Planned two-sided Type I error rate,0.05,none
+planned_power,number,proportion,Normal-approximation probability of rejecting under the planned effect,Between 0 and 1,none
+assumed_sd_days,number,days,Common within-group SD assumed during planning,4.0,none
+minimum_practical_effect_days,number,days,Pre-declared smallest worthwhile delivery-time change,1.0,none
+meets_80_percent_power,categorical,indicator,Whether planned power is at least 0.80,Yes; No,none
+practically_meaningful,categorical,indicator,Whether natural-unit effect reaches one day,Yes; No,none

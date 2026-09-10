@@ -1,0 +1,81 @@
+shipment_id,region,delivery_days,units,within_four_days,delay_band
+SHP-001,Jakarta,1.3,23,Yes,0-2 days
+SHP-002,West Java,2.9,13,Yes,2.1-4 days
+SHP-003,Central Java,1.8,6,Yes,0-2 days
+SHP-004,East Java,1.6,4,Yes,0-2 days
+SHP-005,Jakarta,6.5,17,No,4.1-7 days
+SHP-006,West Java,3.1,12,Yes,2.1-4 days
+SHP-007,Central Java,2.0,28,Yes,0-2 days
+SHP-008,East Java,2.8,27,Yes,2.1-4 days
+SHP-009,Jakarta,4.0,18,Yes,2.1-4 days
+SHP-010,West Java,0.8,18,Yes,0-2 days
+SHP-011,Central Java,2.1,28,Yes,2.1-4 days
+SHP-012,East Java,2.4,28,Yes,2.1-4 days
+SHP-013,Jakarta,1.7,29,Yes,0-2 days
+SHP-014,West Java,4.4,19,No,4.1-7 days
+SHP-015,Central Java,7.5,27,No,Over 7 days
+SHP-016,East Java,0.8,11,Yes,0-2 days
+SHP-017,Jakarta,2.2,15,Yes,2.1-4 days
+SHP-018,West Java,5.2,25,No,4.1-7 days
+SHP-019,Central Java,2.1,26,Yes,2.1-4 days
+SHP-020,East Java,2.7,5,Yes,2.1-4 days
+SHP-021,Jakarta,1.8,25,Yes,0-2 days
+SHP-022,West Java,1.0,8,Yes,0-2 days
+SHP-023,Central Java,2.3,17,Yes,2.1-4 days
+SHP-024,East Java,2.5,27,Yes,2.1-4 days
+SHP-025,Jakarta,1.6,26,Yes,0-2 days
+SHP-026,West Java,6.4,30,No,4.1-7 days
+SHP-027,Central Java,6.0,13,No,4.1-7 days
+SHP-028,East Java,2.8,26,Yes,2.1-4 days
+SHP-029,Jakarta,4.0,16,Yes,2.1-4 days
+SHP-030,West Java,0.8,22,Yes,0-2 days
+SHP-031,Central Java,4.1,11,No,4.1-7 days
+SHP-032,East Java,6.4,30,No,4.1-7 days
+SHP-033,Jakarta,2.4,14,Yes,2.1-4 days
+SHP-034,West Java,5.0,26,No,4.1-7 days
+SHP-035,Central Java,1.3,13,Yes,0-2 days
+SHP-036,East Java,1.1,11,Yes,0-2 days
+SHP-037,Jakarta,3.4,22,Yes,2.1-4 days
+SHP-038,West Java,1.5,20,Yes,0-2 days
+SHP-039,Central Java,0.8,21,Yes,0-2 days
+SHP-040,East Java,2.1,13,Yes,2.1-4 days
+SHP-041,Jakarta,5.4,5,No,4.1-7 days
+SHP-042,West Java,0.9,26,Yes,0-2 days
+SHP-043,Central Java,1.8,19,Yes,0-2 days
+SHP-044,East Java,6.1,23,No,4.1-7 days
+SHP-045,Jakarta,3.6,20,Yes,2.1-4 days
+SHP-046,West Java,0.8,9,Yes,0-2 days
+SHP-047,Central Java,4.8,25,No,4.1-7 days
+SHP-048,East Java,2.6,30,Yes,2.1-4 days
+SHP-049,Jakarta,1.5,22,Yes,0-2 days
+SHP-050,West Java,2.5,22,Yes,2.1-4 days
+SHP-051,Central Java,1.3,15,Yes,0-2 days
+SHP-052,East Java,0.8,21,Yes,0-2 days
+SHP-053,Jakarta,3.2,6,Yes,2.1-4 days
+SHP-054,West Java,4.0,4,Yes,2.1-4 days
+SHP-055,Central Java,4.4,5,No,4.1-7 days
+SHP-056,East Java,3.7,11,Yes,2.1-4 days
+SHP-057,Jakarta,4.6,23,No,4.1-7 days
+SHP-058,West Java,4.2,30,No,4.1-7 days
+SHP-059,Central Java,2.4,24,Yes,2.1-4 days
+SHP-060,East Java,3.1,26,Yes,2.1-4 days
+SHP-061,Jakarta,1.4,4,Yes,0-2 days
+SHP-062,West Java,1.8,23,Yes,0-2 days
+SHP-063,Central Java,1.4,21,Yes,0-2 days
+SHP-064,East Java,1.5,19,Yes,0-2 days
+SHP-065,Jakarta,1.4,13,Yes,0-2 days
+SHP-066,West Java,2.7,25,Yes,2.1-4 days
+SHP-067,Central Java,4.0,28,Yes,2.1-4 days
+SHP-068,East Java,3.6,14,Yes,2.1-4 days
+SHP-069,Jakarta,3.2,29,Yes,2.1-4 days
+SHP-070,West Java,4.6,5,No,4.1-7 days
+SHP-071,Central Java,4.6,4,No,4.1-7 days
+SHP-072,East Java,4.0,5,Yes,2.1-4 days
+SHP-073,Jakarta,2.8,8,Yes,2.1-4 days
+SHP-074,West Java,3.3,7,Yes,2.1-4 days
+SHP-075,Central Java,2.2,14,Yes,2.1-4 days
+SHP-076,East Java,1.5,10,Yes,0-2 days
+SHP-077,Jakarta,2.9,12,Yes,2.1-4 days
+SHP-078,West Java,10.5,9,No,Over 7 days
+SHP-079,Central Java,13.0,27,No,Over 7 days
+SHP-080,East Java,18.0,26,No,Over 7 days

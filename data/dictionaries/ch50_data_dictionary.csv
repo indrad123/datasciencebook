@@ -1,0 +1,14 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+package_id,string,false,primary,,Stable synthetic package identifier,^PKG50-[0-9]{3}$
+impact_score_standardized,number,false,,standard deviations,Impact-sensor input used by the neuron,finite six-decimal number
+moisture_score_standardized,number,false,,standard deviations,Moisture input used by the neuron,finite six-decimal number
+latent_damage_score,number,false,,score,Synthetic label-generating score including irreducible noise,finite six-decimal number
+damage_label,integer,false,,,Observed synthetic binary outcome,0 or 1
+initial_probability,number,false,,probability,Probability emitted by zero-initialized weights and bias,exactly 0.5
+trained_logit,number,false,,log-odds,Fitted weighted sum before sigmoid activation,finite six-decimal number
+trained_probability,number,false,,probability,Sigmoid of the trained logit,0 to 1
+predicted_damage_at_0_5,integer,false,,,Class decision after applying the separate 0.5 threshold,0 or 1
+binary_cross_entropy_contribution,number,false,,loss,Observation contribution to final mean binary cross-entropy,non-negative
+probability_minus_label,number,false,,gradient signal,Prediction-minus-label term used in batch gradients,-1 to 1
+signed_boundary_distance,number,false,,standardized feature-space units,Signed perpendicular distance from the learned linear boundary,finite six-decimal number
+classification_correct,integer,false,,,Whether the threshold decision matches the label,0 or 1

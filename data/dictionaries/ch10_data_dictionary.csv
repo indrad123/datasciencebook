@@ -1,0 +1,14 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+interval_start_hour,float,hour,Start of the half-hour interval,0.0 to 5.5 in increments of 0.5,None
+interval_end_hour,float,hour,End of the half-hour interval,0.5 to 6.0 in increments of 0.5,None
+interval_width_hour,float,hour,Elapsed interval width,Always 0.5,None
+start_rate_cases_per_hour,float,cases per hour,Net inventory flow at the interval start,12 - 3 * interval_start_hour,None
+end_rate_cases_per_hour,float,cases per hour,Net inventory flow at the interval end,12 - 3 * interval_end_hour,None
+left_contribution_cases,float,cases,Left-rectangle contribution for the interval,start rate * interval width,None
+right_contribution_cases,float,cases,Right-rectangle contribution for the interval,end rate * interval width,None
+trapezoid_contribution_cases,float,cases,Trapezoidal contribution for the interval,average endpoint rate * interval width,None
+cumulative_left_cases,float,cases,Cumulative left-rectangle estimate through the interval end,Running sum of left contributions,None
+cumulative_right_cases,float,cases,Cumulative right-rectangle estimate through the interval end,Running sum of right contributions,None
+cumulative_trapezoid_cases,float,cases,Cumulative trapezoidal estimate through the interval end,Running sum of trapezoid contributions,None
+exact_net_change_cases,float,cases,Exact signed accumulation from hour zero through the interval end,12t - 1.5t squared at interval end,None
+exact_absolute_movement_cases,float,cases,Exact accumulated magnitude of movement through the interval end,Integral of absolute net rate; sign changes at hour 4,None

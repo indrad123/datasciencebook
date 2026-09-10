@@ -1,0 +1,13 @@
+cohort_week,model_version,release_stage,decision_traffic_share,requests,error_count,error_rate,p95_latency_ms,route_distance_missing_rate,route_distance_psi,mean_late_risk_score,intervention_action_rate,mature_label_join_coverage,mature_cohort_brier_score,alert_state,incident_id,response_action,accountable_owner
+2026-01-05,v1.1-shadow,shadow,0.00,9820,18,0.001833,78,0.010,0.030,0.289,0.000,1.00,0.218,ok,,observe shadow logs,ML operations lead
+2026-01-12,v1.1-shadow,shadow,0.00,10040,21,0.002092,81,0.011,0.040,0.291,0.000,1.00,0.214,ok,,approve limited canary,ML operations lead
+2026-01-19,v1.1-canary,canary,0.10,10180,24,0.002358,84,0.012,0.050,0.294,0.081,1.00,0.211,ok,,continue canary,ML operations lead
+2026-01-26,v1.1-canary,canary,0.25,10320,29,0.002810,88,0.014,0.070,0.298,0.086,0.99,0.209,ok,,approve full release,ML operations lead
+2026-02-02,v1.1,full,1.00,10560,34,0.003220,91,0.016,0.080,0.302,0.092,0.98,0.207,ok,,routine monitoring,ML operations lead
+2026-02-09,v1.1,full,1.00,10740,43,0.004004,104,0.021,0.110,0.311,0.096,0.92,0.212,warning,,open drift investigation,ML operations lead
+2026-02-16,v1.1,full,1.00,10920,62,0.005678,119,0.028,0.160,0.327,0.104,0.81,0.221,warning,,compare seasonal reference,ML operations lead
+2026-02-23,v1.1,full,1.00,11160,118,0.010573,142,0.039,0.240,0.346,0.117,0.65,,warning,,prepare rollback,ML operations lead
+2026-03-02,v1.1,full,1.00,10880,381,0.035018,196,0.061,0.310,0.382,0.141,0.43,,critical,INC-48-001,stop v1.1 and roll back,ML operations lead
+2026-03-09,v1.0,rollback,1.00,10420,146,0.014012,151,0.043,0.180,0.335,0.101,0.24,,warning,INC-48-001,verify containment,ML operations lead
+2026-03-16,v1.0,recovered,1.00,10680,47,0.004401,96,0.019,0.090,0.304,0.094,0.10,,ok,INC-48-001,close incident after review,ML operations lead
+2026-03-23,v1.0,recovered,1.00,11020,31,0.002813,87,0.014,0.060,0.296,0.091,0.00,,ok,,routine monitoring,ML operations lead

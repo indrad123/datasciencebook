@@ -1,0 +1,5 @@
+field,type,unit,description,allowed_values,missing_policy
+pack_id,string,,Synthetic pack identifier,Unique non-empty identifier,Not permitted
+label_mass_g,number,g,Mass printed on the product label,Positive decimal,Not permitted
+measured_mass_g,number,g,Observed scale reading for the pack,Positive decimal recorded to 0.1 g,Not permitted
+scale_resolution_g,number,g,Smallest displayed increment of the scale,Positive decimal,Not permitted

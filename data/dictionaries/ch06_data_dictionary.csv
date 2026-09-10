@@ -1,0 +1,9 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+example_id,string,not applicable,Identifier for the deterministic teaching example,warehouse_shipments; odd_number_summand; weighted_revenue; product_region_matrix,None
+outer_index,integer,index,One-based index i within an example,Positive integer,None
+inner_index,integer,index,One-based nested index j for a product-region matrix term,Positive integer,Blank when the example has one index
+term_label,string,not applicable,Reader-facing label for the indexed term,Non-empty text,None
+term_value,integer,example-specific,Value contributed before an optional weight,Non-negative integer,None
+weight,integer,example-specific,Quantity multiplying term_value in the weighted-revenue example,Positive integer,Blank when the example is not weighted
+weighted_term,integer,thousand IDR,Product of term_value and weight for weighted revenue,term_value * weight,Blank when the example is not weighted
+included,string,not applicable,Whether the term is included in the stated finite sum,yes,None

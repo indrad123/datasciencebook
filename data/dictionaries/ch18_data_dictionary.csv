@@ -1,0 +1,9 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+distribution,categorical,family,Probability distribution family,Binomial; Poisson; Uniform; Normal; Exponential,none
+variable_type,categorical,type,Whether outcomes are countable or vary continuously,Discrete; Continuous,none
+x,number,outcome or measurement,Evaluation point on the distribution support,Value must lie within the documented support,none
+mass_or_density,number,mass or density,PMF for discrete families and PDF height for continuous families,Non-negative; density is not point probability,none
+cumulative_probability,number,proportion,Probability at or below x,Between zero and one subject to finite Poisson truncation,none
+parameter_1,string,parameter,First defining parameter with value,Family-specific name=value,none
+parameter_2,string,parameter,Second parameter when required,Family-specific name=value or blank,40.5% by design for one-parameter families
+support,string,support,Set of mathematically possible outcomes,Plain-language support statement,none

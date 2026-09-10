@@ -1,0 +1,8 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+step_order,integer,sequence,Execution order of the deterministic pipeline,1 through 8,none
+step,text,name,Transformation or validation stage,Non-empty,none
+input_rows,integer,rows,Rows entering the stage,Zero or greater,none
+output_rows,integer,rows,Rows leaving the stage,Zero or greater,none
+affected_values,integer,values or rows,Values parsed or mapped or rows affected as described by the step,Zero or greater,none
+status,text,category,Stage result,passed; warning,none
+audit_note,text,description,Rule outcome and retained audit evidence,Non-empty,none

@@ -1,0 +1,17 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+week_start,date,ISO date,Monday starting the weekly demand period,2023-01-02 through 2025-12-22,none
+week_index,integer,week,Sequential week number in the released series,1 through 156,none
+trend_level_cases,decimal,cases,Underlying level plus deterministic weekly trend,positive,none
+seasonal_component_cases,decimal,cases,Annual sinusoidal contribution with a 52-week period,-75 to 75,none
+event_adjustment_cases,decimal,cases,Synthetic known promotion or disruption adjustment,-78; 0; 42; 48; 52; 55; 60; 64,none
+irregular_component_cases,decimal,cases,Seeded zero-centred irregular contribution,finite number,none
+cases_shipped,decimal,cases per week,Observed synthetic weekly shipment volume,sum of the four released components to rounding precision,none
+evaluation_split,text,category,Chronological role used for final evaluation,training; holdout,none
+forecast_origin_week,integer,week index,Last observed week when all released holdout forecasts were issued,130,training rows only
+horizon_weeks,integer,weeks ahead,Distance from forecast origin to the target week,1 through 26,training rows only
+naive_forecast_cases,decimal,cases,Forecast repeating demand observed at week 130,positive,training rows only
+seasonal_naive_forecast_cases,decimal,cases,Forecast repeating the latest available corresponding value 52 weeks earlier,positive,training rows only
+drift_forecast_cases,decimal,cases,Forecast extending average change from training week 1 to week 130,positive,training rows only
+seasonal_naive_lower_80,decimal,cases,Lower bound of illustrative 80 percent seasonal-error interval,less than corresponding point forecast,training rows only
+seasonal_naive_upper_80,decimal,cases,Upper bound of illustrative 80 percent seasonal-error interval,greater than corresponding point forecast,training rows only
+seasonal_naive_error_cases,decimal,cases,Actual cases minus issued seasonal-naive forecast,finite number,training rows only

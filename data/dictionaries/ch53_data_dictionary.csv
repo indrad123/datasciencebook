@@ -1,0 +1,25 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+layer_number,integer,false,primary,hidden layers,One-based hidden-layer position,1 to 8
+fan_in,integer,false,,units,Number of inputs to the layer,32 for layer 1 and 64 thereafter
+fan_out,integer,false,,units,Number of outputs from the layer,exactly 64
+data_seed,integer,false,,,Seed for the 1000-row standard-normal input matrix,exactly 53
+weight_seed,integer,false,,,Per-layer weight seed,1 to 8
+small_tanh_weight_scale,number,false,,standard deviation,Initialization scale for the deliberately too-small tanh comparison,exactly 0.01
+small_tanh_activation_variance,number,false,,variance,Variance after the small-initialized tanh layer,non-negative
+xavier_tanh_weight_scale,number,false,,standard deviation,Xavier scale paired with tanh,square root of 2 divided by fan-in plus fan-out
+xavier_tanh_activation_variance,number,false,,variance,Variance after the Xavier-initialized tanh layer,non-negative
+he_relu_weight_scale,number,false,,standard deviation,He scale paired with ReLU,square root of 2 divided by fan-in
+he_relu_activation_variance,number,false,,variance,Variance after the He-initialized ReLU layer,non-negative
+training_sensor_1_mean,number,false,,sensor units,Training-fitted mean for example sensor one,exactly 4
+training_sensor_1_scale,number,false,,sensor units,Training-fitted population scale for example sensor one,positive
+training_sensor_2_mean,number,false,,sensor units,Training-fitted mean for example sensor two,exactly 24
+training_sensor_2_scale,number,false,,sensor units,Training-fitted population scale for example sensor two,positive
+standardized_sensor_1_mean,number,false,,standardized units,Mean after applying stored training state to sensor one,approximately 0
+standardized_sensor_1_std,number,false,,standardized units,Population standard deviation after scaling sensor one,approximately 1
+standardized_sensor_2_mean,number,false,,standardized units,Mean after applying stored training state to sensor two,approximately 0
+standardized_sensor_2_std,number,false,,standardized units,Population standard deviation after scaling sensor two,approximately 1
+dropout_rate,number,false,,fraction,Training dropout probability in the benchmark,exactly 0.25
+dropout_observed_zero_fraction,number,false,,fraction,Observed zero share across 20000 deterministic mask draws,0 to 1 and near 0.25
+dropout_output_mean,number,false,,input units,Mean after inverted-dropout scaling of an all-ones vector,near 1
+l2_strength,number,false,,,L2 regularization strength in the benchmark,exactly 0.10
+l2_penalty,number,false,,loss units,Half-strength times the sum of squared benchmark weights,exactly 0.2625

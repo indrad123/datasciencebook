@@ -1,0 +1,13 @@
+field,type,unit_or_values,description
+distributor_id,string,D45-001 to D45-240,Unique synthetic distributor record
+retention_program,categorical,standard or enhanced,Observed programme group for descriptive comparison
+region,categorical,Indonesia; Southeast Asia; Middle East; Europe,Illustrative reporting subgroup
+cohort_origin_month,integer,0,Common programme-cohort origin
+entry_month,integer,0; 3; 6,Month the distributor first becomes observable and enters the risk set
+observed_followup_months,number,months,Event-free follow-up after entry rounded to three decimals
+exit_month,number,months,Month from cohort origin at churn or censoring equal to entry plus follow-up
+event_observed,integer,0 or 1,One for observed churn and zero for right censoring
+end_state,categorical,churn or right_censored,Observed status at the end of follow-up
+censor_reason,categorical,blank or administrative_study_end,Reason follow-up ended without observed churn
+at_risk_month_12,integer,0 or 1,One when observed follow-up reaches at least 12 months after entry
+at_risk_month_24,integer,0 or 1,One when observed follow-up reaches at least 24 months after entry

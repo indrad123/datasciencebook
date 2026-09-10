@@ -1,0 +1,6 @@
+example_id,component_position,component_label,vector_a_value,vector_b_value,difference_a_minus_b,absolute_difference,squared_difference,component_product
+warehouse_profiles,1,Coffee,4,2,2,2,4,8
+warehouse_profiles,2,Tea,3,4,-1,1,1,12
+warehouse_profiles,3,Noodles,5,6,-1,1,1,30
+magnitude_unit_vector,1,horizontal,3,0,3,3,9,0
+magnitude_unit_vector,2,vertical,4,0,4,4,16,0

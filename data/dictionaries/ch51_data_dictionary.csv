@@ -1,0 +1,29 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+package_id,string,false,primary,,Stable synthetic package identifier,^PKG51-[0-9]{2}$
+impact_score_standardized,number,false,,standard deviations,Impact-sensor network input,finite six-decimal number
+moisture_score_standardized,number,false,,standard deviations,Moisture network input,finite six-decimal number
+seal_temperature_standardized,number,false,,standard deviations,Seal-temperature network input,finite six-decimal number
+line_speed_standardized,number,false,,standard deviations,Line-speed network input,finite six-decimal number
+synthetic_severity_score,number,false,,score,Rule-based score used only to create the synthetic true class,finite six-decimal number
+true_class,string,false,,,Synthetic observed class,normal or inspect or reject
+hidden_1_preactivation,number,false,,activation input,Weighted sum before hidden unit 1 ReLU,finite six-decimal number
+hidden_2_preactivation,number,false,,activation input,Weighted sum before hidden unit 2 ReLU,finite six-decimal number
+hidden_3_preactivation,number,false,,activation input,Weighted sum before hidden unit 3 ReLU,finite six-decimal number
+hidden_4_preactivation,number,false,,activation input,Weighted sum before hidden unit 4 ReLU,finite six-decimal number
+hidden_5_preactivation,number,false,,activation input,Weighted sum before hidden unit 5 ReLU,finite six-decimal number
+hidden_6_preactivation,number,false,,activation input,Weighted sum before hidden unit 6 ReLU,finite six-decimal number
+hidden_1_relu,number,false,,activation,Hidden unit 1 after ReLU,non-negative
+hidden_2_relu,number,false,,activation,Hidden unit 2 after ReLU,non-negative
+hidden_3_relu,number,false,,activation,Hidden unit 3 after ReLU,non-negative
+hidden_4_relu,number,false,,activation,Hidden unit 4 after ReLU,non-negative
+hidden_5_relu,number,false,,activation,Hidden unit 5 after ReLU,non-negative
+hidden_6_relu,number,false,,activation,Hidden unit 6 after ReLU,non-negative
+normal_logit,number,false,,logit,Output-layer score for normal before softmax,finite six-decimal number
+inspect_logit,number,false,,logit,Output-layer score for inspect before softmax,finite six-decimal number
+reject_logit,number,false,,logit,Output-layer score for reject before softmax,finite six-decimal number
+normal_probability,number,false,,probability,Stable-softmax probability for normal,0 to 1
+inspect_probability,number,false,,probability,Stable-softmax probability for inspect,0 to 1
+reject_probability,number,false,,probability,Stable-softmax probability for reject,0 to 1
+predicted_class,string,false,,,Class with largest softmax probability,normal or inspect or reject
+cross_entropy_contribution,number,false,,loss,Negative log probability assigned to the true class,non-negative
+softmax_probability_sum,number,false,,probability,Row-level softmax normalization check,exactly 1 within rounding

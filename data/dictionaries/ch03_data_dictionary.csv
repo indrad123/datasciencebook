@@ -1,0 +1,7 @@
+field,type,unit,description,allowed_values,missing_policy
+cartons_per_pallet,integer,cartons per pallet,Changing quantity represented by x,Non-negative integer,Not permitted
+pallet_count,integer,pallets,Fixed number of pallets in the shipment plan,18,Not permitted
+sample_cartons,integer,cartons,Fixed cartons reserved for samples,120,Not permitted
+pallet_cartons,integer,cartons,Cartons on pallets calculated as pallet_count times cartons_per_pallet,Non-negative integer,Not permitted
+shipment_total_cartons,integer,cartons,Total cartons calculated as pallet_cartons plus sample_cartons,Non-negative integer,Not permitted
+meets_1200_carton_plan,boolean,,Whether shipment_total_cartons equals the 1200-carton target,True; False,Not permitted

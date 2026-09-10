@@ -1,0 +1,14 @@
+field,type,unit_or_values,description
+message_id,string,M44-001 to M44-320,Unique synthetic message identifier
+conversation_id,string,C44-001 to C44-160,Conversation grouping used to prevent split leakage
+message_timestamp_utc,datetime,ISO 8601 UTC,Timestamp used for the chronological boundary
+language,categorical,id or en,Message language code for Indonesian or English
+channel,categorical,email; portal; chat,Operational intake channel
+redaction_status,categorical,synthetic_no_personal_data,Privacy status of the released synthetic text
+route_label,categorical,service; quality; finance; sales,Human-defined destination used as the supervised target
+split,categorical,train or test,Chronological conversation-level evaluation partition
+message_text,string,synthetic message,Text available at routing time
+predicted_route,categorical,service; quality; finance; sales,Highest-probability route from the training-only TF-IDF model
+confidence,number,0 to 1,Maximum uncalibrated class probability rounded to six decimals
+review_required,integer,0 or 1,One when confidence is below the illustrative 0.68 review threshold
+correct_prediction,integer,0 or 1,One when predicted_route equals route_label

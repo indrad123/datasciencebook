@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+scenario_id,text,identifier,Synthetic feasibility-scenario identifier,Unique,none
+eligible_orders,integer,orders per month,Orders eligible for the proposed intervention,10000; 20000; 30000,none
+damage_return_rate,decimal,proportion,Expected damage-return rate,0.01; 0.02; 0.04,none
+preventable_fraction,decimal,proportion,Fraction of damage returns preventable through inspection,0.10; 0.25; 0.40,none
+net_avoidable_loss_units,decimal,illustrative value units,Net avoidable loss per prevented return before operating costs,30.00,none
+expected_damage_returns,decimal,returns per month,Eligible orders times damage-return rate,Formula derived,none
+addressable_returns,decimal,returns per month,Expected damage returns times preventable fraction,Formula derived,none
+upper_bound_value_units,decimal,illustrative value units per month,Addressable returns times net avoidable loss,Formula derived,none
+is_chapter_example,text,indicator,Marks the manuscript's 20000-order 2-percent 25-percent scenario,yes; no,none

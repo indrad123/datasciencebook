@@ -1,0 +1,14 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+window_id,text,identifier,Stable evaluation-window identifier,cv_1 through cv_4 or final_test,none
+evaluation_role,text,category,Role of the held-out period,validation; test,none
+train_start,date,day,First eligible training date,ISO 8601 date,none
+train_end,date,day,Last eligible training date before the maturity gap,ISO 8601 date and before evaluation_start,none
+gap_days,integer,days,Outcome-maturity gap between training and evaluation,30,none
+evaluation_start,date,day,First date of the held-out evaluation period,ISO 8601 date,none
+evaluation_end,date,day,Last date of the held-out evaluation period,ISO 8601 date,none
+train_shipments,integer,shipments,Number of shipment-level training observations,positive,none
+evaluation_shipments,integer,shipments,Number of shipment-level evaluation observations,positive,none
+late_rate,decimal,proportion,Observed late-shipment prevalence in the evaluation window,0 to 1,none
+expected_loss_idr,integer,IDR per shipment,Mean operational loss under the selected threshold,nonnegative,none
+late_recall,decimal,proportion,Fraction of late shipments correctly alerted,0 to 1,none
+false_alerts,integer,alerts,On-time shipments incorrectly alerted,nonnegative and no more than evaluation_shipments,none

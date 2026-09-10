@@ -1,0 +1,9 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+year,integer,years,Completed planning periods since the initial observation,0 to 10,None
+initial_demand_cases,integer,cases,Demand at year zero,10000,None
+annual_growth_rate,float,proportion per year,Simplified annual compound growth rate,0.08,None
+linear_demand_cases,integer,cases,Demand if 800 cases are added each year,10000 + 800 * year,None
+exponential_demand_cases,float,cases,Demand if the prior value grows by 8 percent each year,10000 * 1.08 ** year rounded to 2 decimals,None
+growth_factor_power,float,dimensionless,Repeated annual growth factor,1.08 ** year rounded to 6 decimals,None
+log_recovered_year,float,years,Year recovered by applying a base 1.08 logarithm to the growth multiple,log base 1.08 of exponential demand divided by 10000 rounded to 6 decimals,None
+retained_inventory_pct,float,percent,Usable inventory retained after simplified 12 percent deterioration per period,100 * 0.88 ** year rounded to 2 decimals,None

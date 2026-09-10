@@ -1,0 +1,72 @@
+table,column,type,nullable,key,unit,description,allowed_or_rule
+products,product_id,string,false,primary,,Stable product identifier,^P[0-9]{3}$
+products,product_name,string,false,,,Reader-facing product name,non-empty
+products,category,string,false,,,Commercial product family,"noodles|spices|coffee|tea"
+products,shelf_life_days,integer,false,,days,Nominal unopened shelf life,positive
+products,case_cost_usd,number,false,,USD/case,Planning cost per case,non-negative
+locations,location_id,string,false,primary,,Stable location identifier,^L[0-9]{3}$
+locations,location_name,string,false,,,Reader-facing facility name,non-empty
+locations,country_code,string,false,,,ISO 3166-1 alpha-2 country code,2 uppercase letters
+locations,location_type,string,false,,,Operational role,"plant|distribution_centre|market"
+weekly_demand,week_start,date,false,composite,,Monday beginning the demand week,ISO date and Monday
+weekly_demand,product_id,string,false,composite,,Product foreign key,products.product_id
+weekly_demand,market_id,string,false,composite,,Market location foreign key,locations.location_id
+weekly_demand,demand_cases,integer,false,,cases,Estimated unconstrained demand,non-negative
+weekly_demand,sales_cases,integer,false,,cases,Fulfilled sales quantity,between 0 and demand_cases
+weekly_demand,promotion_flag,boolean,false,,,Promotion active during week,true or false
+weekly_demand,stockout_days,integer,false,,days,Days unavailable during week,0 to 7
+inventory_snapshots,snapshot_date,date,false,composite,,Date of inventory observation,ISO date
+inventory_snapshots,product_id,string,false,composite,,Product foreign key,products.product_id
+inventory_snapshots,location_id,string,false,composite,,Holding location foreign key,locations.location_id
+inventory_snapshots,on_hand_cases,integer,false,,cases,Usable physical stock,non-negative
+inventory_snapshots,on_order_cases,integer,false,,cases,Confirmed inbound stock,non-negative
+inventory_snapshots,backorder_cases,integer,false,,cases,Unfulfilled committed demand,non-negative
+inventory_snapshots,unit_cost_usd,number,false,,USD/case,Valuation cost at snapshot,non-negative
+forecasts,forecast_origin,date,false,composite,,Latest information date used by forecast,ISO date
+forecasts,target_week,date,false,composite,,Week predicted,after forecast_origin
+forecasts,product_id,string,false,composite,,Product foreign key,products.product_id
+forecasts,market_id,string,false,composite,,Market location foreign key,locations.location_id
+forecasts,model_version,string,false,,,Immutable forecasting model version,non-empty
+forecasts,p50_cases,number,false,,cases,Median demand forecast,non-negative
+forecasts,p90_cases,number,false,,cases,90th percentile demand forecast,at least p50_cases
+planning_decisions,decision_id,string,false,primary,,Stable decision identifier,^D[0-9]{4}$
+planning_decisions,decision_date,date,false,,,Date plan was approved,ISO date
+planning_decisions,product_id,string,false,,,Product foreign key,products.product_id
+planning_decisions,location_id,string,false,,,Destination foreign key,locations.location_id
+planning_decisions,replenishment_cases,integer,false,,cases,Approved replenishment quantity,non-negative
+planning_decisions,service_target,number,false,,proportion,Target demand-service probability,0 to 1
+planning_decisions,owner_role,string,false,,,Role accountable for approval,non-empty
+planning_decisions,forecast_origin,date,false,,,Forecast vintage supporting decision,forecasts.forecast_origin
+chapter59_sample,week_start,date,false,composite,,Monday beginning the weekly observation,104 consecutive ISO Mondays per product
+chapter59_sample,dc_id,string,false,composite,,Distribution-centre identifier,JKT_DC
+chapter59_sample,product_id,string,false,composite,,Product identifier,SAMBAL_250|KOPI_200|TEH_20
+chapter59_sample,promotion,integer,false,,,Promotion known for the demand week,0 or 1
+chapter59_sample,stockout,integer,false,,,Observed stockout censoring flag,0 or 1
+chapter59_sample,observed_sales_cases,integer,false,,cases,Fulfilled sales after any stockout,0 to latent_demand_cases
+chapter59_sample,latent_demand_cases,integer,false,,cases,Synthetic unconstrained demand,non-negative; instructional field unavailable directly in production
+chapter59_sample,data_split,string,false,,,Chronological evaluation role,training|holdout
+chapter59_sample,forecast_origin_week,date,true,,,Last training week used for the final forecast,blank for training rows
+chapter59_sample,forecast_horizon_weeks,integer,true,,weeks,Distance from origin to holdout target,1 to 13 or blank
+chapter59_sample,last_observation_forecast_cases,number,true,,cases,Forecast repeating the final training observation,non-negative or blank
+chapter59_sample,seasonal_naive_forecast_cases,number,true,,cases,Forecast repeating demand from 13 weeks earlier,non-negative or blank
+chapter59_sample,drift_forecast_cases,number,true,,cases,Linear drift forecast fitted on training endpoints,non-negative or blank
+chapter59_sample,selected_model,string,true,,,Model selected under the shared protocol,seasonal_naive or blank
+chapter59_sample,selected_forecast_cases,number,true,,cases,Selected-model point forecast,non-negative or blank
+chapter59_sample,selected_error_cases,number,true,,cases,Actual latent demand minus selected forecast,signed number or blank
+chapter59_sample,selected_absolute_error_cases,number,true,,cases,Absolute selected forecast error,non-negative or blank
+chapter59_sample,lead_time_weeks,integer,true,,weeks,Supplier lead time used in policy,2 or blank
+chapter59_sample,service_level,number,true,,proportion,Quantile used for the empirical error buffer,0.90 or blank
+chapter59_sample,lead_time_point_demand_cases,number,true,,cases,Sum of first two selected forecasts,non-negative or blank
+chapter59_sample,error_quantile_cases,number,true,,cases,90th percentile historical two-week error,non-negative or blank
+chapter59_sample,safety_stock_cases,number,true,,cases,Positive part of error quantile,non-negative or blank
+chapter59_sample,order_up_to_target_cases,number,true,,cases,Lead-time point demand plus safety stock,non-negative or blank
+chapter59_sample,on_hand_cases,integer,true,,cases,Usable stock at decision time,non-negative or blank
+chapter59_sample,on_order_cases,integer,true,,cases,Confirmed inbound stock at decision time,non-negative or blank
+chapter59_sample,backorders_cases,integer,true,,cases,Committed unmet demand at decision time,non-negative or blank
+chapter59_sample,inventory_position_cases,number,true,,cases,On hand plus on order minus backorders,number or blank
+chapter59_sample,case_pack_cases,integer,true,,cases,Required replenishment multiple,positive or blank
+chapter59_sample,unconstrained_order_cases,number,true,,cases,Positive target-position difference before rounding,non-negative or blank
+chapter59_sample,recommended_order_cases,number,true,,cases,Unconstrained order rounded up to case pack,non-negative multiple of case_pack_cases or blank
+chapter59_sample,accountable_owner,string,true,,,Role accountable for policy approval,Demand Planning Manager or blank
+chapter59_sample,approval_state,string,true,,,Human-control state,planner_review_required or blank
+chapter59_sample,data_seed,integer,false,,,Deterministic generator seed,20260828

@@ -1,0 +1,5 @@
+quality_status,camera_signal,carton_count,total_cartons,quality_group_total,signal_group_total,joint_probability,signal_given_quality,quality_given_signal,posterior_defect_if_alert
+defective,alert,18,1000,20,67,0.018,0.9,0.26865671641791045,0.26865671641791045
+defective,no_alert,2,1000,20,933,0.002,0.1,0.0021436227224008574,0.0021436227224008574
+sound,alert,49,1000,980,67,0.049,0.05,0.7313432835820896,0.26865671641791045
+sound,no_alert,931,1000,980,933,0.931,0.95,0.9978563772775991,0.0021436227224008574

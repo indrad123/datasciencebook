@@ -1,0 +1,17 @@
+curve,scenario,setting,training_rows,training_mse,validation_mse,generalisation_gap,diagnosis
+validation,polynomial_degree,1,10240,520,560,40,underfit
+validation,polynomial_degree,3,10240,210,240,30,stable candidate
+validation,polynomial_degree,6,10240,90,230,140,flexible candidate
+validation,polynomial_degree,12,10240,5,480,475,overfit
+learning,high_bias,,500,610,650,40,poor plateau
+learning,high_bias,,1000,590,625,35,poor plateau
+learning,high_bias,,2000,575,605,30,poor plateau
+learning,high_bias,,4000,565,590,25,poor plateau
+learning,high_bias,,8000,560,578,18,poor plateau
+learning,high_bias,,12000,558,572,14,poor plateau
+learning,high_variance,,500,75,510,435,gap narrows with data
+learning,high_variance,,1000,82,420,338,gap narrows with data
+learning,high_variance,,2000,91,340,249,gap narrows with data
+learning,high_variance,,4000,105,275,170,gap narrows with data
+learning,high_variance,,8000,122,225,103,gap narrows with data
+learning,high_variance,,12000,135,205,70,gap narrows with data

@@ -1,0 +1,12 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+row_index,integer,index,One-based matrix row identifying a resource constraint,1 or 2,None
+resource_label,string,not applicable,Resource represented by the matrix row,Ingredient A; Ingredient B,None
+coffee_units_per_batch,integer,resource units per batch,Coefficient for coffee blend in the resource equation,Positive integer,None
+tea_units_per_batch,integer,resource units per batch,Coefficient for tea blend in the resource equation,Positive integer,None
+available_units,integer,resource units,Right-hand-side resource availability,Positive integer,None
+coffee_batches_solution,integer,batches,Solved production quantity x for coffee blend,42,None
+tea_batches_solution,integer,batches,Solved production quantity y for tea blend,16,None
+coffee_resource_usage,integer,resource units,Coffee coefficient multiplied by solved coffee batches,coffee_units_per_batch * coffee_batches_solution,None
+tea_resource_usage,integer,resource units,Tea coefficient multiplied by solved tea batches,tea_units_per_batch * tea_batches_solution,None
+total_resource_usage,integer,resource units,Row dot product of coefficients and solved batch vector,coffee_resource_usage + tea_resource_usage,None
+residual_units,integer,resource units,Verified usage minus available units,total_resource_usage - available_units,None

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "NRG demand forecasting and inventory-risk planning",
+  "fictional": true,
+  "timezone": "Asia/Jakarta",
+  "grain": {
+    "products": "one row per product",
+    "locations": "one row per operating location",
+    "weekly_demand": "one row per week, product, and market",
+    "inventory_snapshots": "one row per snapshot date, product, and holding location",
+    "forecasts": "one row per origin, target week, product, market, and model version",
+    "planning_decisions": "one row per approved replenishment decision"
+  },
+  "relationships": [
+    {"from": "weekly_demand.product_id", "to": "products.product_id", "cardinality": "many-to-one"},
+    {"from": "weekly_demand.market_id", "to": "locations.location_id", "cardinality": "many-to-one"},
+    {"from": "inventory_snapshots.product_id", "to": "products.product_id", "cardinality": "many-to-one"},
+    {"from": "inventory_snapshots.location_id", "to": "locations.location_id", "cardinality": "many-to-one"},
+    {"from": "forecasts.product_id", "to": "products.product_id", "cardinality": "many-to-one"},
+    {"from": "forecasts.market_id", "to": "locations.location_id", "cardinality": "many-to-one"},
+    {"from": "planning_decisions.product_id", "to": "products.product_id", "cardinality": "many-to-one"},
+    {"from": "planning_decisions.location_id", "to": "locations.location_id", "cardinality": "many-to-one"}
+  ],
+  "privacy": "Synthetic business data with no real people or organisations",
+  "currency_policy": "Monetary fields ending in _usd are nominal US dollars for the synthetic scenario"
+}

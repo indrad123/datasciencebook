@@ -1,0 +1,7 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+shipment_id,text,identifier,Synthetic shipment identifier,Unique,none
+shift,text,category,Warehouse work shift,Morning; Evening; Night,none
+warehouse,text,category,Fulfilment warehouse,Jakarta; Surabaya; Medan,none
+late_delivery,text,flag,Whether delivery exceeded its service threshold,Yes; No,none
+picking_minutes,number,minutes,Time required to pick the shipment,positive,none
+distributor_rating,integer,ordinal score,Distributor satisfaction rating,1 through 5,none

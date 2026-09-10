@@ -1,0 +1,86 @@
+distribution,variable_type,x,mass_or_density,cumulative_probability,parameter_1,parameter_2,support
+Binomial,Discrete,0,0.10737418,0.10737418,n=10,p=0.2,0 through 10
+Binomial,Discrete,1,0.26843546,0.37580964,n=10,p=0.2,0 through 10
+Binomial,Discrete,2,0.30198989,0.67779953,n=10,p=0.2,0 through 10
+Binomial,Discrete,3,0.20132659,0.87912612,n=10,p=0.2,0 through 10
+Binomial,Discrete,4,0.08808038,0.9672065,n=10,p=0.2,0 through 10
+Binomial,Discrete,5,0.02642412,0.99363062,n=10,p=0.2,0 through 10
+Binomial,Discrete,6,0.00550502,0.99913564,n=10,p=0.2,0 through 10
+Binomial,Discrete,7,0.00078643,0.99992207,n=10,p=0.2,0 through 10
+Binomial,Discrete,8,7.373e-05,0.9999958,n=10,p=0.2,0 through 10
+Binomial,Discrete,9,4.1e-06,0.9999999,n=10,p=0.2,0 through 10
+Binomial,Discrete,10,1e-07,1.0,n=10,p=0.2,0 through 10
+Poisson,Discrete,0,0.13533528,0.13533528,lambda=2,,non-negative integers
+Poisson,Discrete,1,0.27067057,0.40600585,lambda=2,,non-negative integers
+Poisson,Discrete,2,0.27067057,0.67667642,lambda=2,,non-negative integers
+Poisson,Discrete,3,0.18044704,0.85712346,lambda=2,,non-negative integers
+Poisson,Discrete,4,0.09022352,0.94734698,lambda=2,,non-negative integers
+Poisson,Discrete,5,0.03608941,0.98343639,lambda=2,,non-negative integers
+Poisson,Discrete,6,0.0120298,0.99546619,lambda=2,,non-negative integers
+Poisson,Discrete,7,0.00343709,0.99890328,lambda=2,,non-negative integers
+Poisson,Discrete,8,0.00085927,0.99976255,lambda=2,,non-negative integers
+Poisson,Discrete,9,0.00019095,0.9999535,lambda=2,,non-negative integers
+Poisson,Discrete,10,3.819e-05,0.99999169,lambda=2,,non-negative integers
+Poisson,Discrete,11,6.94e-06,0.99999864,lambda=2,,non-negative integers
+Poisson,Discrete,12,1.16e-06,0.99999979,lambda=2,,non-negative integers
+Uniform,Continuous,0.0,0.1,0.0,a=0,b=10,0 through 10
+Uniform,Continuous,0.5,0.1,0.05,a=0,b=10,0 through 10
+Uniform,Continuous,1.0,0.1,0.1,a=0,b=10,0 through 10
+Uniform,Continuous,1.5,0.1,0.15,a=0,b=10,0 through 10
+Uniform,Continuous,2.0,0.1,0.2,a=0,b=10,0 through 10
+Uniform,Continuous,2.5,0.1,0.25,a=0,b=10,0 through 10
+Uniform,Continuous,3.0,0.1,0.3,a=0,b=10,0 through 10
+Uniform,Continuous,3.5,0.1,0.35,a=0,b=10,0 through 10
+Uniform,Continuous,4.0,0.1,0.4,a=0,b=10,0 through 10
+Uniform,Continuous,4.5,0.1,0.45,a=0,b=10,0 through 10
+Uniform,Continuous,5.0,0.1,0.5,a=0,b=10,0 through 10
+Uniform,Continuous,5.5,0.1,0.55,a=0,b=10,0 through 10
+Uniform,Continuous,6.0,0.1,0.6,a=0,b=10,0 through 10
+Uniform,Continuous,6.5,0.1,0.65,a=0,b=10,0 through 10
+Uniform,Continuous,7.0,0.1,0.7,a=0,b=10,0 through 10
+Uniform,Continuous,7.5,0.1,0.75,a=0,b=10,0 through 10
+Uniform,Continuous,8.0,0.1,0.8,a=0,b=10,0 through 10
+Uniform,Continuous,8.5,0.1,0.85,a=0,b=10,0 through 10
+Uniform,Continuous,9.0,0.1,0.9,a=0,b=10,0 through 10
+Uniform,Continuous,9.5,0.1,0.95,a=0,b=10,0 through 10
+Uniform,Continuous,10.0,0.1,1.0,a=0,b=10,0 through 10
+Normal,Continuous,55,0.00029546,0.0013499,mu=100,sigma=15,all real values
+Normal,Continuous,60,0.00075973,0.00383038,mu=100,sigma=15,all real values
+Normal,Continuous,65,0.00174813,0.00981533,mu=100,sigma=15,all real values
+Normal,Continuous,70,0.0035994,0.02275013,mu=100,sigma=15,all real values
+Normal,Continuous,75,0.00663181,0.04779035,mu=100,sigma=15,all real values
+Normal,Continuous,80,0.010934,0.09121122,mu=100,sigma=15,all real values
+Normal,Continuous,85,0.01613138,0.15865525,mu=100,sigma=15,all real values
+Normal,Continuous,90,0.02129653,0.25249254,mu=100,sigma=15,all real values
+Normal,Continuous,95,0.02515888,0.36944134,mu=100,sigma=15,all real values
+Normal,Continuous,100,0.02659615,0.5,mu=100,sigma=15,all real values
+Normal,Continuous,105,0.02515888,0.63055866,mu=100,sigma=15,all real values
+Normal,Continuous,110,0.02129653,0.74750746,mu=100,sigma=15,all real values
+Normal,Continuous,115,0.01613138,0.84134475,mu=100,sigma=15,all real values
+Normal,Continuous,120,0.010934,0.90878878,mu=100,sigma=15,all real values
+Normal,Continuous,125,0.00663181,0.95220965,mu=100,sigma=15,all real values
+Normal,Continuous,130,0.0035994,0.97724987,mu=100,sigma=15,all real values
+Normal,Continuous,135,0.00174813,0.99018467,mu=100,sigma=15,all real values
+Normal,Continuous,140,0.00075973,0.99616962,mu=100,sigma=15,all real values
+Normal,Continuous,145,0.00029546,0.9986501,mu=100,sigma=15,all real values
+Exponential,Continuous,0.0,0.5,0.0,rate=0.5,,zero and above
+Exponential,Continuous,0.5,0.38940039,0.22119922,rate=0.5,,zero and above
+Exponential,Continuous,1.0,0.30326533,0.39346934,rate=0.5,,zero and above
+Exponential,Continuous,1.5,0.23618328,0.52763345,rate=0.5,,zero and above
+Exponential,Continuous,2.0,0.18393972,0.63212056,rate=0.5,,zero and above
+Exponential,Continuous,2.5,0.1432524,0.7134952,rate=0.5,,zero and above
+Exponential,Continuous,3.0,0.11156508,0.77686984,rate=0.5,,zero and above
+Exponential,Continuous,3.5,0.08688697,0.82622606,rate=0.5,,zero and above
+Exponential,Continuous,4.0,0.06766764,0.86466472,rate=0.5,,zero and above
+Exponential,Continuous,4.5,0.05269961,0.89460078,rate=0.5,,zero and above
+Exponential,Continuous,5.0,0.0410425,0.917915,rate=0.5,,zero and above
+Exponential,Continuous,5.5,0.03196393,0.93607214,rate=0.5,,zero and above
+Exponential,Continuous,6.0,0.02489353,0.95021293,rate=0.5,,zero and above
+Exponential,Continuous,6.5,0.0193871,0.96122579,rate=0.5,,zero and above
+Exponential,Continuous,7.0,0.01509869,0.96980262,rate=0.5,,zero and above
+Exponential,Continuous,7.5,0.01175887,0.97648225,rate=0.5,,zero and above
+Exponential,Continuous,8.0,0.00915782,0.98168436,rate=0.5,,zero and above
+Exponential,Continuous,8.5,0.00713212,0.98573577,rate=0.5,,zero and above
+Exponential,Continuous,9.0,0.0055545,0.988891,rate=0.5,,zero and above
+Exponential,Continuous,9.5,0.00432585,0.9913483,rate=0.5,,zero and above
+Exponential,Continuous,10.0,0.00336897,0.99326205,rate=0.5,,zero and above

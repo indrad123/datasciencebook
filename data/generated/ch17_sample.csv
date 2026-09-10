@@ -1,0 +1,181 @@
+observation_id,scenario,delivery_days,review_outcome,retained_in_analysis
+SYM-001,Symmetric routine,4.49,Routine observation,Yes
+SYM-002,Symmetric routine,3.84,Routine observation,Yes
+SYM-003,Symmetric routine,6.38,Routine observation,Yes
+SYM-004,Symmetric routine,7.3,Routine observation,Yes
+SYM-005,Symmetric routine,2.97,Routine observation,Yes
+SYM-006,Symmetric routine,6.14,Routine observation,Yes
+SYM-007,Symmetric routine,4.92,Routine observation,Yes
+SYM-008,Symmetric routine,5.63,Routine observation,Yes
+SYM-009,Symmetric routine,5.64,Routine observation,Yes
+SYM-010,Symmetric routine,6.64,Routine observation,Yes
+SYM-011,Symmetric routine,8.02,Routine observation,Yes
+SYM-012,Symmetric routine,5.94,Routine observation,Yes
+SYM-013,Symmetric routine,4.98,Routine observation,Yes
+SYM-014,Symmetric routine,3.65,Routine observation,Yes
+SYM-015,Symmetric routine,4.71,Routine observation,Yes
+SYM-016,Symmetric routine,5.09,Routine observation,Yes
+SYM-017,Symmetric routine,4.58,Routine observation,Yes
+SYM-018,Symmetric routine,4.65,Routine observation,Yes
+SYM-019,Symmetric routine,4.73,Routine observation,Yes
+SYM-020,Symmetric routine,5.32,Routine observation,Yes
+SYM-021,Symmetric routine,5.29,Routine observation,Yes
+SYM-022,Symmetric routine,5.4,Routine observation,Yes
+SYM-023,Symmetric routine,4.55,Routine observation,Yes
+SYM-024,Symmetric routine,5.17,Routine observation,Yes
+SYM-025,Symmetric routine,5.33,Routine observation,Yes
+SYM-026,Symmetric routine,4.85,Routine observation,Yes
+SYM-027,Symmetric routine,4.37,Routine observation,Yes
+SYM-028,Symmetric routine,6.39,Routine observation,Yes
+SYM-029,Symmetric routine,6.22,Routine observation,Yes
+SYM-030,Symmetric routine,2.77,Routine observation,Yes
+SYM-031,Symmetric routine,5.68,Routine observation,Yes
+SYM-032,Symmetric routine,3.15,Routine observation,Yes
+SYM-033,Symmetric routine,4.88,Routine observation,Yes
+SYM-034,Symmetric routine,4.76,Routine observation,Yes
+SYM-035,Symmetric routine,5.14,Routine observation,Yes
+SYM-036,Symmetric routine,4.97,Routine observation,Yes
+SYM-037,Symmetric routine,5.14,Routine observation,Yes
+SYM-038,Symmetric routine,3.26,Routine observation,Yes
+SYM-039,Symmetric routine,3.5,Routine observation,Yes
+SYM-040,Symmetric routine,5.69,Routine observation,Yes
+SYM-041,Symmetric routine,5.58,Routine observation,Yes
+SYM-042,Symmetric routine,6.23,Routine observation,Yes
+SYM-043,Symmetric routine,3.59,Routine observation,Yes
+SYM-044,Symmetric routine,5.52,Routine observation,Yes
+SYM-045,Symmetric routine,6.92,Routine observation,Yes
+SYM-046,Symmetric routine,6.13,Routine observation,Yes
+SYM-047,Symmetric routine,2.98,Routine observation,Yes
+SYM-048,Symmetric routine,4.31,Routine observation,Yes
+SYM-049,Symmetric routine,5.09,Routine observation,Yes
+SYM-050,Symmetric routine,4.11,Routine observation,Yes
+SYM-051,Symmetric routine,4.16,Routine observation,Yes
+SYM-052,Symmetric routine,6.46,Routine observation,Yes
+SYM-053,Symmetric routine,5.69,Routine observation,Yes
+SYM-054,Symmetric routine,4.86,Routine observation,Yes
+SYM-055,Symmetric routine,6.16,Routine observation,Yes
+SYM-056,Symmetric routine,4.91,Routine observation,Yes
+SYM-057,Symmetric routine,3.16,Routine observation,Yes
+SYM-058,Symmetric routine,3.84,Routine observation,Yes
+SYM-059,Symmetric routine,4.57,Routine observation,Yes
+SYM-060,Symmetric routine,5.35,Routine observation,Yes
+RIG-001,Right-skewed waiting,4.0,Routine observation,Yes
+RIG-002,Right-skewed waiting,1.34,Routine observation,Yes
+RIG-003,Right-skewed waiting,1.09,Routine observation,Yes
+RIG-004,Right-skewed waiting,5.3,Routine observation,Yes
+RIG-005,Right-skewed waiting,4.06,Routine observation,Yes
+RIG-006,Right-skewed waiting,2.06,Routine observation,Yes
+RIG-007,Right-skewed waiting,4.91,Routine observation,Yes
+RIG-008,Right-skewed waiting,2.09,Routine observation,Yes
+RIG-009,Right-skewed waiting,2.53,Routine observation,Yes
+RIG-010,Right-skewed waiting,2.07,Routine observation,Yes
+RIG-011,Right-skewed waiting,4.58,Routine observation,Yes
+RIG-012,Right-skewed waiting,3.26,Routine observation,Yes
+RIG-013,Right-skewed waiting,1.34,Routine observation,Yes
+RIG-014,Right-skewed waiting,2.85,Routine observation,Yes
+RIG-015,Right-skewed waiting,0.87,Routine observation,Yes
+RIG-016,Right-skewed waiting,5.13,Routine observation,Yes
+RIG-017,Right-skewed waiting,3.4,Routine observation,Yes
+RIG-018,Right-skewed waiting,8.18,Routine observation,Yes
+RIG-019,Right-skewed waiting,1.38,Routine observation,Yes
+RIG-020,Right-skewed waiting,4.79,Routine observation,Yes
+RIG-021,Right-skewed waiting,4.36,Routine observation,Yes
+RIG-022,Right-skewed waiting,4.98,Routine observation,Yes
+RIG-023,Right-skewed waiting,4.17,Routine observation,Yes
+RIG-024,Right-skewed waiting,1.69,Routine observation,Yes
+RIG-025,Right-skewed waiting,0.75,Routine observation,Yes
+RIG-026,Right-skewed waiting,3.1,Routine observation,Yes
+RIG-027,Right-skewed waiting,1.82,Routine observation,Yes
+RIG-028,Right-skewed waiting,3.76,Routine observation,Yes
+RIG-029,Right-skewed waiting,2.68,Routine observation,Yes
+RIG-030,Right-skewed waiting,1.87,Routine observation,Yes
+RIG-031,Right-skewed waiting,1.99,Routine observation,Yes
+RIG-032,Right-skewed waiting,2.51,Routine observation,Yes
+RIG-033,Right-skewed waiting,4.81,Routine observation,Yes
+RIG-034,Right-skewed waiting,2.77,Routine observation,Yes
+RIG-035,Right-skewed waiting,1.16,Routine observation,Yes
+RIG-036,Right-skewed waiting,5.46,Routine observation,Yes
+RIG-037,Right-skewed waiting,2.5,Routine observation,Yes
+RIG-038,Right-skewed waiting,6.63,Routine observation,Yes
+RIG-039,Right-skewed waiting,3.63,Routine observation,Yes
+RIG-040,Right-skewed waiting,2.86,Routine observation,Yes
+RIG-041,Right-skewed waiting,3.6,Routine observation,Yes
+RIG-042,Right-skewed waiting,7.16,Routine observation,Yes
+RIG-043,Right-skewed waiting,2.95,Routine observation,Yes
+RIG-044,Right-skewed waiting,1.87,Routine observation,Yes
+RIG-045,Right-skewed waiting,0.3,Routine observation,Yes
+RIG-046,Right-skewed waiting,1.84,Routine observation,Yes
+RIG-047,Right-skewed waiting,1.4,Routine observation,Yes
+RIG-048,Right-skewed waiting,1.47,Routine observation,Yes
+RIG-049,Right-skewed waiting,5.03,Routine observation,Yes
+RIG-050,Right-skewed waiting,2.54,Routine observation,Yes
+RIG-051,Right-skewed waiting,1.34,Routine observation,Yes
+RIG-052,Right-skewed waiting,2.43,Routine observation,Yes
+RIG-053,Right-skewed waiting,0.35,Routine observation,Yes
+RIG-054,Right-skewed waiting,0.73,Routine observation,Yes
+RIG-055,Right-skewed waiting,2.76,Routine observation,Yes
+RIG-056,Right-skewed waiting,1.06,Routine observation,Yes
+RIG-057,Right-skewed waiting,0.92,Routine observation,Yes
+RIG-058,Right-skewed waiting,7.71,Routine observation,Yes
+RIG-059,Right-skewed waiting,1.45,Routine observation,Yes
+RIG-060,Right-skewed waiting,2.19,Routine observation,Yes
+ROU-001,Routine plus disruption,5.62,Routine observation,Yes
+ROU-002,Routine plus disruption,4.52,Routine observation,Yes
+ROU-003,Routine plus disruption,5.03,Routine observation,Yes
+ROU-004,Routine plus disruption,4.69,Routine observation,Yes
+ROU-005,Routine plus disruption,4.34,Routine observation,Yes
+ROU-006,Routine plus disruption,4.46,Routine observation,Yes
+ROU-007,Routine plus disruption,4.18,Routine observation,Yes
+ROU-008,Routine plus disruption,5.03,Routine observation,Yes
+ROU-009,Routine plus disruption,4.2,Routine observation,Yes
+ROU-010,Routine plus disruption,4.97,Routine observation,Yes
+ROU-011,Routine plus disruption,4.13,Routine observation,Yes
+ROU-012,Routine plus disruption,4.31,Routine observation,Yes
+ROU-013,Routine plus disruption,4.57,Routine observation,Yes
+ROU-014,Routine plus disruption,2.8,Routine observation,Yes
+ROU-015,Routine plus disruption,5.16,Routine observation,Yes
+ROU-016,Routine plus disruption,6.68,Routine observation,Yes
+ROU-017,Routine plus disruption,5.03,Routine observation,Yes
+ROU-018,Routine plus disruption,4.72,Routine observation,Yes
+ROU-019,Routine plus disruption,5.19,Routine observation,Yes
+ROU-020,Routine plus disruption,5.78,Routine observation,Yes
+ROU-021,Routine plus disruption,3.33,Routine observation,Yes
+ROU-022,Routine plus disruption,3.63,Routine observation,Yes
+ROU-023,Routine plus disruption,3.44,Routine observation,Yes
+ROU-024,Routine plus disruption,4.92,Routine observation,Yes
+ROU-025,Routine plus disruption,3.54,Routine observation,Yes
+ROU-026,Routine plus disruption,4.69,Routine observation,Yes
+ROU-027,Routine plus disruption,4.96,Routine observation,Yes
+ROU-028,Routine plus disruption,4.89,Routine observation,Yes
+ROU-029,Routine plus disruption,4.19,Routine observation,Yes
+ROU-030,Routine plus disruption,5.91,Routine observation,Yes
+ROU-031,Routine plus disruption,3.48,Routine observation,Yes
+ROU-032,Routine plus disruption,4.57,Routine observation,Yes
+ROU-033,Routine plus disruption,3.3,Routine observation,Yes
+ROU-034,Routine plus disruption,4.45,Routine observation,Yes
+ROU-035,Routine plus disruption,4.52,Routine observation,Yes
+ROU-036,Routine plus disruption,3.36,Routine observation,Yes
+ROU-037,Routine plus disruption,3.8,Routine observation,Yes
+ROU-038,Routine plus disruption,5.21,Routine observation,Yes
+ROU-039,Routine plus disruption,3.77,Routine observation,Yes
+ROU-040,Routine plus disruption,5.46,Routine observation,Yes
+ROU-041,Routine plus disruption,4.91,Routine observation,Yes
+ROU-042,Routine plus disruption,3.63,Routine observation,Yes
+ROU-043,Routine plus disruption,4.26,Routine observation,Yes
+ROU-044,Routine plus disruption,4.24,Routine observation,Yes
+ROU-045,Routine plus disruption,4.49,Routine observation,Yes
+ROU-046,Routine plus disruption,4.11,Routine observation,Yes
+ROU-047,Routine plus disruption,3.14,Routine observation,Yes
+ROU-048,Routine plus disruption,3.21,Routine observation,Yes
+ROU-049,Routine plus disruption,2.86,Routine observation,Yes
+ROU-050,Routine plus disruption,3.33,Routine observation,Yes
+ROU-051,Routine plus disruption,5.18,Routine observation,Yes
+ROU-052,Routine plus disruption,4.88,Routine observation,Yes
+ROU-053,Routine plus disruption,4.76,Routine observation,Yes
+ROU-054,Routine plus disruption,5.2,Routine observation,Yes
+ROU-055,Routine plus disruption,3.0,Routine observation,Yes
+ROU-056,Routine plus disruption,4.16,Routine observation,Yes
+ROU-057,Routine plus disruption,4.74,Routine observation,Yes
+ROU-058,Routine plus disruption,5.18,Routine observation,Yes
+ROU-059,Routine plus disruption,5.03,Routine observation,Yes
+ROU-060,Routine plus disruption,18.0,Verified disruption,Yes

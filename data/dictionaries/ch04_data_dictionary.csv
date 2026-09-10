@@ -1,0 +1,9 @@
+field,type,unit,description,allowed_values,missing_policy
+quantity_cases,integer,cases,Function input representing shipment quantity,Non-negative integer,Not permitted
+plan_a_fixed_idr,integer,IDR,Plan A vertical intercept or fixed freight charge,300000,Not permitted
+plan_a_rate_idr_per_case,integer,IDR per case,Plan A slope or variable freight rate,4000,Not permitted
+plan_a_cost_idr,integer,IDR,Plan A output calculated as 300000 plus 4000 times quantity_cases,Non-negative integer,Not permitted
+plan_b_fixed_idr,integer,IDR,Plan B vertical intercept or fixed freight charge,180000,Not permitted
+plan_b_rate_idr_per_case,integer,IDR per case,Plan B slope or variable freight rate,6000,Not permitted
+plan_b_cost_idr,integer,IDR,Plan B output calculated as 180000 plus 6000 times quantity_cases,Non-negative integer,Not permitted
+cheaper_plan,string,,Plan with the lower modelled cost at the given quantity,Plan A; Plan B; equal,Not permitted

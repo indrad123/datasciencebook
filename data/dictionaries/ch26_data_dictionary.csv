@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+shipment_id,text,identifier,Synthetic shipment identifier,Unique,none
+facility_type,text,category,Facility ownership type,Company; Third-party,none
+temperature_c,number,degrees Celsius,Temperature reading near dispatch,plausible cold-chain value,7% missing in Company and 38% in Third-party
+temperature_missing,text,flag,Whether temperature is absent,Yes; No,none
+urgent_shipment,text,flag,Pre-dispatch urgency indicator,Yes; No,none
+premium_freight,text,flag,Freight service selected before dispatch,Yes; No,none
+late_delivery,text,flag,Target outcome observed after delivery,Yes; No,none
+dispatch_time,datetime,ISO 8601,Prediction-time boundary,2025 synthetic timestamps,none
+final_exception_code,text,category,Post-delivery exception code,LATE; NONE,none
+exception_available_time,datetime,ISO 8601,Earliest availability of final exception code,strictly after dispatch_time,none

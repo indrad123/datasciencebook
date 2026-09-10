@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+model,text,category,Evaluated late-shipment prediction approach,current_rule; logistic; decision_tree; random_forest; gradient_boosting,none
+construction,text,description,Concise description of how predictions are constructed,documented text,none
+complexity_control,text,setting,Primary constraint or ensemble setting,documented text,none
+validation_cost_idr,integer,IDR per day,Illustrative expected operational cost on chronological validation data,nonnegative,none
+recall,decimal,proportion,Fraction of late shipments alerted,0 to 1,none
+precision,decimal,proportion,Fraction of alerts that are truly late,0 to 1,none
+alerts_per_day,integer,alerts per day,Mean control-tower workload,0 to 100,none
+latency_ms,integer,milliseconds,Measured model-only inference latency,positive,none
+selection_status,text,category,Outcome of validation review,no; yes; candidate,none

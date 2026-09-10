@@ -1,0 +1,15 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+batch_id,text,identifier,Synthetic packaged-sauce batch identifier,unique B41-prefixed value,none
+sample_role,text,category,Role in time-aware detector fitting and evaluation,reference; monitoring,none
+product_family,text,category,Product context with a distinct expected pH and viscosity,sauce_a; sauce_b,none
+production_line,text,category,Illustrative filling-line context,line_1; line_2,none
+sequence_index,integer,ordered batch,Production order across the reference and monitoring periods,1 through 400,none
+fill_weight_g,decimal,grams,Measured average package fill weight for the batch,positive,none
+ph,decimal,pH,Measured batch acidity,0 to 14,none
+viscosity_cp,decimal,centipoise,Measured batch viscosity,positive,none
+confirmed_relevant,integer,binary indicator,Synthetic known outcome used only for evaluation,0; 1,none
+anomaly_type,text,category,Synthetic teaching label describing the known deviation mechanism,ordinary; point; contextual; collective,none
+robust_max_abs_z,decimal,robust z score,Maximum absolute robust feature score using reference medians and scaled MADs,nonnegative,none
+isolation_score,decimal,ranking score,Negative Isolation Forest sample score from a model fitted only on reference batches,higher means more anomalous evidence,none
+monitoring_review_rank,integer,rank,Descending isolation-score rank within the 100 monitoring batches,1 through 100,reference rows only
+selected_at_capacity_5,integer,binary indicator,Whether the monitoring batch enters the five-case investigation queue,0; 1,none

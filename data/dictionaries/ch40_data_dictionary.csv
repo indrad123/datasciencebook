@@ -1,0 +1,13 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+product_id,text,identifier,Synthetic product identifier,unique P40-prefixed value,none
+product_family,text,category,Illustrative portfolio family,staples; beverages; snacks; premium,none
+evaluation_split,text,category,Chronological-boundary proxy used to keep fitted transformations inside training,training; test,none
+weekly_unit_volume,decimal,units per week,Illustrative mature-window average unit volume,positive,none
+weekly_order_count,decimal,orders per week,Illustrative mature-window average order count,positive,none
+stockout_rate,decimal,proportion,Illustrative share of product-week opportunities with a stockout,0 to 1,none
+contribution_margin_pct,decimal,percentage points,Illustrative contribution margin percentage,0 to 100,none
+promotion_share,decimal,proportion,Illustrative share of weeks under promotion,0 to 1,none
+supplier_lead_days,decimal,days,Illustrative average supplier lead time,positive,none
+pc1_score,decimal,standardised component score,First PCA score using scaler and directions fitted on training rows only,finite number; component sign is arbitrary,none
+pc2_score,decimal,standardised component score,Second PCA score using scaler and directions fitted on training rows only,finite number; component sign is arbitrary,none
+two_component_reconstruction_rmse,decimal,standardised RMSE,Row-level reconstruction error across six standardised inputs using two components,nonnegative,none

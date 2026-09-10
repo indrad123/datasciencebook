@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+account_id,text,identifier,Synthetic distributor account and randomized unit,Unique,none
+region,text,category,Pre-treatment geographic block,Java; Sumatra; Kalimantan; Sulawesi,none
+account_tier,text,category,Pre-treatment account-size block,Standard; Key,none
+randomization_block,text,category,Region and tier combination used for blocked assignment,region-account_tier,none
+assignment,text,category,Randomly assigned checkout experience,Control; Treatment,none
+block_arm_index,integer,index,Deterministic position within each block and arm,1 through 250,none
+completed_order_7d,text,flag,Primary outcome: eligible order completed within seven days,Yes; No,none
+correction_request,text,flag,Guardrail: account requested an order correction,Yes; No,none
+support_contact,text,flag,Guardrail: account contacted customer support,Yes; No,none

@@ -1,0 +1,24 @@
+field,type,unit_or_values,description
+proposal_id,string,P49-01 to P49-08,Unique synthetic proposal identifier
+model_approach,categorical,deep-learning approach,Illustrative package-inspection implementation
+input_modality,categorical,images,Operational input type
+annual_packages,integer,packages,Annual screening volume
+baseline_error_rate,number,0 to 1,Locked-test error rate for the strongest practical baseline
+candidate_error_rate,number,0 to 1,Locked-test error rate for the candidate
+absolute_error_reduction,number,proportion points,Baseline error minus candidate error
+corrected_decisions,integer,package decisions,Annual packages multiplied by absolute error reduction
+value_per_corrected_decision_idr,integer,Indonesian rupiah,Illustrative average consequence avoided per corrected decision
+gross_incremental_value_idr,number,Indonesian rupiah,Corrected decisions multiplied by value per correction
+training_runs,integer,runs,Planned annual training and tuning runs
+training_cost_per_run_idr,integer,Indonesian rupiah,Compute and execution cost per training run
+annual_inferences,integer,inferences,Annual package-scoring calls
+inference_cost_per_case_idr,integer,Indonesian rupiah,Serving cost per package
+engineering_monitoring_cost_idr,integer,Indonesian rupiah,Annual integration staffing monitoring governance and incident cost
+annual_lifecycle_cost_idr,number,Indonesian rupiah,Training plus inference plus engineering and monitoring cost
+annual_net_value_idr,number,Indonesian rupiah,Gross incremental value minus annual lifecycle cost
+data_readiness,number,0 to 1,Rights representativeness label split and pipeline readiness
+baseline_readiness,number,0 to 1,Strength and honesty of the simpler-model comparison
+operations_readiness,number,0 to 1,Latency throughput fallback monitoring and ownership readiness
+governance_readiness,number,0 to 1,Privacy security fairness documentation and accountability readiness
+minimum_readiness,number,0 to 1,Minimum of the four readiness dimensions
+recommendation,categorical,pilot; simpler-baseline,Pilot only when net value is positive and every readiness score is at least 0.60

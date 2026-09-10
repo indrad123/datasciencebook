@@ -1,0 +1,7 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+shipment_id,string,identifier,Unique synthetic shipment identifier,SHP-001 through SHP-080,none
+region,categorical,region,Indonesian operating region,Jakarta; West Java; Central Java; East Java,none
+delivery_days,number,days,Elapsed delivery time rounded to one decimal,Positive value from 0.8 through 18.0,none
+units,integer,units,Number of product units in the shipment,Integer from 4 through 30,none
+within_four_days,categorical,indicator,Whether delivery time is at most four days,Yes; No,none
+delay_band,ordinal categorical,band,Operational delivery-time band,0-2 days; 2.1-4 days; 4.1-7 days; Over 7 days,none

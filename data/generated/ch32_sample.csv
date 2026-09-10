@@ -1,0 +1,17 @@
+forecast_week,product,warehouse,demand_cartons,promotion_planned,discount_pct,promotion_discount_interaction,week_sin,demand_lag_1w,demand_mean_4w
+2026-01-05,instant_noodles,Jakarta,920,0,0,0,0.120537,,
+2026-01-12,instant_noodles,Jakarta,970,0,0,0,0.239316,920,
+2026-01-19,instant_noodles,Jakarta,945,0,0,0,0.354605,970,
+2026-01-26,instant_noodles,Jakarta,1010,1,10,10,0.464723,945,
+2026-02-02,instant_noodles,Jakarta,1040,0,0,0,0.568065,1010,961.25
+2026-02-09,instant_noodles,Jakarta,990,0,0,0,0.663123,1040,991.25
+2026-02-16,instant_noodles,Jakarta,1080,0,0,0,0.748511,990,996.25
+2026-02-23,instant_noodles,Jakarta,1120,1,10,10,0.822984,1080,1030.00
+2026-03-02,instant_noodles,Jakarta,1095,0,0,0,0.885456,1120,1057.50
+2026-03-09,instant_noodles,Jakarta,1170,0,0,0,0.935016,1095,1071.25
+2026-03-16,instant_noodles,Jakarta,1210,0,0,0,0.970942,1170,1116.25
+2026-03-23,instant_noodles,Jakarta,1160,1,10,10,0.992709,1210,1148.75
+2026-03-30,instant_noodles,Jakarta,1240,0,0,0,1.000000,1160,1158.75
+2026-04-06,instant_noodles,Jakarta,1300,0,0,0,0.992709,1240,1195.00
+2026-04-13,instant_noodles,Jakarta,1275,0,0,0,0.970942,1300,1227.50
+2026-04-20,instant_noodles,Jakarta,1360,1,10,10,0.935016,1275,1243.75

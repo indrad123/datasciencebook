@@ -1,0 +1,6 @@
+window_id,evaluation_role,train_start,train_end,gap_days,evaluation_start,evaluation_end,train_shipments,evaluation_shipments,late_rate,expected_loss_idr,late_recall,false_alerts
+cv_1,validation,2024-01-01,2024-05-31,30,2024-07-01,2024-07-31,2480,430,0.142,18800,0.78,54
+cv_2,validation,2024-01-01,2024-09-30,30,2024-11-01,2024-11-30,4210,470,0.149,17600,0.81,57
+cv_3,validation,2024-01-01,2025-01-31,30,2025-03-03,2025-03-31,5870,510,0.157,18100,0.80,64
+cv_4,validation,2024-01-01,2025-05-31,30,2025-07-01,2025-07-31,7540,525,0.166,19300,0.79,69
+final_test,test,2024-01-01,2025-12-01,30,2026-01-01,2026-03-31,10240,1620,0.171,20100,0.77,226

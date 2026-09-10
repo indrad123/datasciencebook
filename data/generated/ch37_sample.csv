@@ -1,0 +1,6 @@
+model,construction,complexity_control,validation_cost_idr,recall,precision,alerts_per_day,latency_ms,selection_status
+current_rule,fixed business thresholds,rule,18400000,0.65,0.48,92,1,no
+logistic,weighted linear predictor,regularised,15100000,0.71,0.55,96,3,no
+decision_tree,recursive feature splits,depth 3,14800000,0.73,0.56,99,2,no
+random_forest,bootstrap trees plus feature sampling,300 trees,13200000,0.76,0.61,98,24,yes
+gradient_boosting,sequential residual correction,180 trees; rate 0.04,12900000,0.77,0.62,99,31,candidate

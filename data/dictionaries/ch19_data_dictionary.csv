@@ -1,0 +1,8 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+sample_size,integer,stores,Number of independently selected population values contributing to the mean,1; 5; 30,none
+replicate_id,integer,identifier,Repeated-sample sequence within each sample size,1 through 1000,none
+sample_mean_weekly_units,number,units per week,Mean weekly units in one simulated sample,Positive and rounded to three decimals,none
+population_mean_weekly_units,number,units per week,Fixed mean of the 5000-value synthetic population,Constant within the dataset,none
+population_sd_weekly_units,number,units per week,Population standard deviation using denominator N,Constant within the dataset,none
+theoretical_se_units,number,units per week,Population SD divided by square root of sample size,Positive and constant within sample size,none
+sampling_method,string,method,Sampling design used for every replicate,Independent sampling with replacement,none

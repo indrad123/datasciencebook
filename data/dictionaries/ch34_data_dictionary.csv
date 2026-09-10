@@ -1,0 +1,9 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+curve,text,category,Diagnostic curve represented by the row,validation; learning,none
+scenario,text,category,Complexity setting or learning-curve pattern,polynomial_degree; high_bias; high_variance,none
+setting,integer,polynomial degree,Complexity value for validation-curve rows,1; 3; 6; 12,missing for learning curves
+training_rows,integer,shipments,Number of observations used to fit the model,positive,none
+training_mse,integer,squared cartons,Mean squared error on training observations,nonnegative,none
+validation_mse,integer,squared cartons,Mean squared error on deployment-aligned validation observations,nonnegative,none
+generalisation_gap,integer,squared cartons,Validation MSE minus training MSE,validation_mse - training_mse,none
+diagnosis,text,category,Concise interpretation of the observed pattern,underfit; stable candidate; flexible candidate; overfit; poor plateau; gap narrows with data,none

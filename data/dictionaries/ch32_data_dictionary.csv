@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+forecast_week,date,week start,Monday beginning the forecast week,ISO 8601 date,none
+product,text,category,Product forecast entity,instant_noodles,none
+warehouse,text,category,Warehouse forecast entity,Jakarta,none
+demand_cartons,integer,cartons,Observed target demand for the forecast week,Positive,none
+promotion_planned,integer,indicator,Promotion known at forecast time,0; 1,none
+discount_pct,integer,percent,Planned discount known at forecast time,0 or 10,none
+promotion_discount_interaction,integer,percentage points,Promotion indicator multiplied by discount percentage,0 or 10,none
+week_sin,decimal,unitless,Sine encoding of week position,sin(2*pi*week/52),none
+demand_lag_1w,integer,cartons,Demand in the completed prior week,Strictly before forecast week,missing for first week
+demand_mean_4w,decimal,cartons per week,Mean demand across four completed prior weeks,Current target excluded,missing for first four weeks

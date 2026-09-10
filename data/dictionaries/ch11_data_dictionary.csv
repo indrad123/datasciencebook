@@ -1,0 +1,11 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+scenario,string,category,Optimisation example represented by the row,one_parameter or two_parameter,None
+iteration,integer,update count,Gradient-descent state before the indexed update,0 to 20,None
+learning_rate,float,unitless,Multiplier applied to the gradient in each update,"0.05, 0.10, 0.60, or 1.10 for one_parameter; 0.10 for two_parameter",None
+parameter_x,float,parameter units,Current scalar w or first coordinate x,Finite numeric value,None
+parameter_y,float,parameter units,Current second coordinate y for the two-parameter example,Finite numeric value,Blank for one_parameter
+loss,float,loss units,Current objective value,"(x - 4)^2 + 2 for one_parameter; (x - 2)^2 + (y + 1)^2 for two_parameter",None
+gradient_x,float,loss units per parameter unit,Derivative with respect to the scalar or first coordinate,"2(x - 4) or 2(x - 2), according to scenario",None
+gradient_y,float,loss units per parameter unit,Partial derivative with respect to y,2(y + 1),Blank for one_parameter
+gradient_norm,float,loss units per parameter unit,Absolute scalar gradient or Euclidean norm of the two-component gradient,Non-negative,None
+distance_to_optimum,float,parameter units,Distance from the known optimum,"abs(x - 4) or Euclidean distance from (2, -1)",None

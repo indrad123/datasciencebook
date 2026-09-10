@@ -1,0 +1,15 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+run_id,string,false,composite,,Stable optimization-run identifier,xor-slow or xor-moderate or xor-fast
+seed,integer,false,,,Parameter-initialization seed,exactly 2
+learning_rate,number,false,,,Gradient-descent step-size multiplier,0.01 or 0.10 or 0.50
+epoch,integer,false,composite,full-batch passes,One-based training epoch,1 to 800
+loss_before_update,number,false,,mean binary cross-entropy,Training loss evaluated before the epoch update,positive
+total_gradient_norm,number,false,,L2 norm,Square root of summed squared parameter gradients,non-negative
+analytical_gradient_w1_00,number,false,,loss per parameter,Backpropagated derivative for initial W1 element zero zero,finite
+numerical_gradient_w1_00,number,false,,loss per parameter,Central finite-difference derivative for the same initial element,finite
+absolute_gradient_check_difference,number,false,,loss per parameter,Absolute analytical-versus-numerical discrepancy,less than 0.00000001
+final_probability_x00,number,false,,probability,Final output for XOR input zero zero,0 to 1
+final_probability_x01,number,false,,probability,Final output for XOR input zero one,0 to 1
+final_probability_x10,number,false,,probability,Final output for XOR input one zero,0 to 1
+final_probability_x11,number,false,,probability,Final output for XOR input one one,0 to 1
+final_prediction_pattern,string,false,,,Four thresholded final predictions ordered x00 x01 x10 x11,exactly four binary digits

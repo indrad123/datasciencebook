@@ -1,0 +1,6 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+observation_id,string,identifier,Unique identifier within a distribution scenario,Three-letter scenario prefix plus sequence 001 through 060,none
+scenario,categorical,scenario,Controlled distribution-generating case,Symmetric routine; Right-skewed waiting; Routine plus disruption,none
+delivery_days,number,days,Synthetic elapsed delivery time,Positive value rounded to two decimals,none
+review_outcome,categorical,review status,Result of contextual review,Routine observation; Verified disruption,none
+retained_in_analysis,categorical,indicator,Whether the reviewed observation remains in the released sample,Yes for all observations,none

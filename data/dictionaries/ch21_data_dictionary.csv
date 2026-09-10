@@ -1,0 +1,10 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+scenario,categorical,scenario,Combination of observed effect and precision,Precise small effect; Precise meaningful effect; Uncertain small effect; Uncertain meaningful effect,none
+permutation_id,integer,identifier,Null-model simulation sequence within scenario,1 through 2000,none
+null_effect_units,number,effect units,Simulated difference under a zero-effect null model,Any real value rounded to four decimals,none
+observed_effect_units,number,effect units,Illustrative effect observed in the scenario,0.8 or 3.0,none
+standard_error_units,number,effect units,Precision controlling the null distribution width,0.2; 0.7; 1.0; 2.0,none
+practical_threshold_units,number,effect units,Pre-declared minimum effect considered operationally meaningful,2.0 for every scenario,none
+as_or_more_extreme,categorical,indicator,Whether absolute null effect is at least the absolute observed effect,Yes; No,none
+simulated_two_sided_p_value,number,proportion,Plus-one corrected share of null simulations as or more extreme,Between zero and one and constant within scenario,none
+practically_meaningful,categorical,indicator,Whether absolute observed effect reaches the practical threshold,Yes; No,none

@@ -1,0 +1,21 @@
+column,type,nullable,key,unit,description,allowed_or_rule
+pixel_row,integer,false,composite,pixel index,Zero-based row in the synthetic package image,0 to 11
+pixel_column,integer,false,composite,pixel index,Zero-based column in the synthetic package image,0 to 11
+input_intensity,number,false,,normalized intensity,Synthetic package-image intensity,0 or 0.2 or 1
+vertical_edge_response,number,false,,response units,Padded stride-one cross-correlation response at the pixel,finite
+absolute_edge_response,number,false,,response units,Absolute vertical-edge response,absolute value of vertical_edge_response
+pool_row,integer,false,,pool index,Row of the non-overlapping two-by-two pooling cell,pixel_row divided by 2 using integer division
+pool_column,integer,false,,pool index,Column of the non-overlapping two-by-two pooling cell,pixel_column divided by 2 using integer division
+pooled_max_absolute_response,number,false,,response units,Maximum absolute edge response in the mapped pooling cell,non-negative
+kernel_values_row_major,string,false,,,Vertical-edge kernel serialized by rows,-1;0;1;-1;0;1;-1;0;1
+convolution_stride,integer,false,,pixels,Cross-correlation step size,exactly 1
+convolution_padding,integer,false,,pixels,Zero padding on every edge,exactly 1
+convolution_output_height,integer,false,,pixels,Feature-map height from shape arithmetic,exactly 12
+convolution_output_width,integer,false,,pixels,Feature-map width from shape arithmetic,exactly 12
+pool_size,integer,false,,pixels,Square max-pooling window size,exactly 2
+pool_stride,integer,false,,pixels,Max-pooling step size,exactly 2
+pooled_output_height,integer,false,,pixels,Pooled feature-map height,exactly 6
+pooled_output_width,integer,false,,pixels,Pooled feature-map width,exactly 6
+three_layer_receptive_field,integer,false,,input pixels,Receptive-field width after conv3 stride1 pool2 stride2 conv3 stride1,exactly 8
+dense_parameter_example,integer,false,,parameters,Weights plus biases for the manuscript 224 by 224 RGB to 16-unit dense example,exactly 2408464
+convolution_parameter_example,integer,false,,parameters,Weights plus biases for a 3 by 3 three-input-channel 16-output-channel convolution,exactly 448

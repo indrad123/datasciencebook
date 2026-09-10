@@ -1,0 +1,8 @@
+field,type,unit,description,allowed_values,missing_policy
+example_id,string,,Stable identifier for the synthetic example,Unique non-empty identifier,Not permitted
+context,string,,Business context represented by the row,Non-empty text,Not permitted
+first_value,integer,See unit,Part or new value named by first_label,Non-negative integer,Not permitted
+second_value,integer,See unit,Whole or original reference value named by second_label,Positive integer,Not permitted
+first_label,string,,Meaning of first_value,Non-empty text,Not permitted
+second_label,string,,Meaning of second_value,Non-empty text,Not permitted
+unit,string,,Unit shared by the two values in the row,cartons; packs; cases; deliveries,Not permitted

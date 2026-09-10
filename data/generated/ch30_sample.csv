@@ -1,0 +1,9 @@
+check_id,quality_dimension,field_or_table,scope,violation_count,denominator,violation_rate,maximum_allowed_rate,severity,status,response
+Q-01,uniqueness,shipment_id,all shipments,180,10000,0.018,0.000,blocker,fail,Fix status-history join; retain latest pre-dispatch record
+Q-02,completeness,sensor_temp_c,all shipments,400,10000,0.040,0.050,warning,pass,Monitor overall coverage and inspect subgroups
+Q-03,completeness,sensor_temp_c,affected warehouse-period,310,1000,0.310,0.050,warning,fail,Open sensor incident and restrict temperature-based use
+Q-04,consistency,delivered_at,all shipments,12,10000,0.001,0.000,error,fail,Convert timestamps using recorded source timezones
+Q-05,validity,weight_kg,all shipments,0,10000,0.000,0.000,error,pass,Quarantine values outside 0 to 30000 kg
+Q-06,validity,route_code,all shipments,0,10000,0.000,0.000,error,pass,Validate against the dated route master
+Q-07,freshness,extract_age_hours,analytical snapshot,0,1,0.000,0.000,blocker,pass,Reject input when extract age is 26 hours or more
+Q-08,reconciliation,shipment_sensor_join,all shipments,0,10000,0.000,0.000,error,pass,Report unmatched keys and join cardinality

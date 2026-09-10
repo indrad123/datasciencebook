@@ -1,0 +1,321 @@
+message_id,conversation_id,message_timestamp_utc,language,channel,redaction_status,route_label,split,message_text,predicted_route,confidence,review_required,correct_prediction
+M44-001,C44-001,2026-01-05T08:00:00Z,id,email,synthetic_no_personal_data,service,train,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-002,C44-001,2026-01-05T09:00:00Z,id,email,synthetic_no_personal_data,service,train,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-003,C44-002,2026-01-06T02:00:00Z,id,portal,synthetic_no_personal_data,quality,train,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-004,C44-002,2026-01-06T03:00:00Z,id,portal,synthetic_no_personal_data,quality,train,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-005,C44-003,2026-01-06T20:00:00Z,id,chat,synthetic_no_personal_data,finance,train,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-006,C44-003,2026-01-06T21:00:00Z,id,chat,synthetic_no_personal_data,finance,train,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-007,C44-004,2026-01-07T14:00:00Z,id,email,synthetic_no_personal_data,sales,train,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-008,C44-004,2026-01-07T15:00:00Z,id,email,synthetic_no_personal_data,sales,train,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-009,C44-005,2026-01-08T08:00:00Z,en,portal,synthetic_no_personal_data,service,train,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-010,C44-005,2026-01-08T09:00:00Z,en,portal,synthetic_no_personal_data,service,train,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-011,C44-006,2026-01-09T02:00:00Z,en,chat,synthetic_no_personal_data,quality,train,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-012,C44-006,2026-01-09T03:00:00Z,en,chat,synthetic_no_personal_data,quality,train,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-013,C44-007,2026-01-09T20:00:00Z,en,email,synthetic_no_personal_data,finance,train,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-014,C44-007,2026-01-09T21:00:00Z,en,email,synthetic_no_personal_data,finance,train,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-015,C44-008,2026-01-10T14:00:00Z,en,portal,synthetic_no_personal_data,sales,train,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-016,C44-008,2026-01-10T15:00:00Z,en,portal,synthetic_no_personal_data,sales,train,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-017,C44-009,2026-01-11T08:00:00Z,id,chat,synthetic_no_personal_data,service,train,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-018,C44-009,2026-01-11T09:00:00Z,id,chat,synthetic_no_personal_data,service,train,pesanan belum diterima setelah tanggal yang dijanjikan,service,0.724206,0,1
+M44-019,C44-010,2026-01-12T02:00:00Z,id,email,synthetic_no_personal_data,quality,train,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-020,C44-010,2026-01-12T03:00:00Z,id,email,synthetic_no_personal_data,quality,train,mohon periksa kemasan bocor pada batch ini,quality,0.745734,0,1
+M44-021,C44-011,2026-01-12T20:00:00Z,id,portal,synthetic_no_personal_data,finance,train,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-022,C44-011,2026-01-12T21:00:00Z,id,portal,synthetic_no_personal_data,finance,train,pembayaran kami dicatat pada faktur yang salah,finance,0.746734,0,1
+M44-023,C44-012,2026-01-13T14:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-024,C44-012,2026-01-13T15:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kirim ketersediaan produk dan jumlah pesanan minimum,sales,0.744803,0,1
+M44-025,C44-013,2026-01-14T08:00:00Z,en,email,synthetic_no_personal_data,service,train,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-026,C44-013,2026-01-14T09:00:00Z,en,email,synthetic_no_personal_data,service,train,our order is missing after the promised delivery date,service,0.746431,0,1
+M44-027,C44-014,2026-01-15T02:00:00Z,en,portal,synthetic_no_personal_data,quality,train,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-028,C44-014,2026-01-15T03:00:00Z,en,portal,synthetic_no_personal_data,quality,train,please investigate the leaking packages in this batch,quality,0.745216,0,1
+M44-029,C44-015,2026-01-15T20:00:00Z,en,chat,synthetic_no_personal_data,finance,train,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-030,C44-015,2026-01-15T21:00:00Z,en,chat,synthetic_no_personal_data,finance,train,our payment was posted against the wrong invoice,finance,0.749849,0,1
+M44-031,C44-016,2026-01-16T14:00:00Z,en,email,synthetic_no_personal_data,sales,train,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-032,C44-016,2026-01-16T15:00:00Z,en,email,synthetic_no_personal_data,sales,train,send product availability and minimum order quantities,sales,0.738289,0,1
+M44-033,C44-017,2026-01-17T08:00:00Z,id,portal,synthetic_no_personal_data,service,train,pesanan belum diterima setelah tanggal yang dijanjikan,service,0.724206,0,1
+M44-034,C44-017,2026-01-17T09:00:00Z,id,portal,synthetic_no_personal_data,service,train,kurir belum mengantar karton ke gudang,service,0.744411,0,1
+M44-035,C44-018,2026-01-18T02:00:00Z,id,chat,synthetic_no_personal_data,quality,train,mohon periksa kemasan bocor pada batch ini,quality,0.745734,0,1
+M44-036,C44-018,2026-01-18T03:00:00Z,id,chat,synthetic_no_personal_data,quality,train,kami menemukan karton penyok saat penerimaan,quality,0.728477,0,1
+M44-037,C44-019,2026-01-18T20:00:00Z,id,email,synthetic_no_personal_data,finance,train,pembayaran kami dicatat pada faktur yang salah,finance,0.746734,0,1
+M44-038,C44-019,2026-01-18T21:00:00Z,id,email,synthetic_no_personal_data,finance,train,kami membutuhkan faktur pajak untuk kiriman bulan lalu,finance,0.733907,0,1
+M44-039,C44-020,2026-01-19T14:00:00Z,id,portal,synthetic_no_personal_data,sales,train,kirim ketersediaan produk dan jumlah pesanan minimum,sales,0.744803,0,1
+M44-040,C44-020,2026-01-19T15:00:00Z,id,portal,synthetic_no_personal_data,sales,train,bisakah tim penjualan membahas harga distributor,sales,0.754835,0,1
+M44-041,C44-021,2026-01-20T08:00:00Z,en,chat,synthetic_no_personal_data,service,train,our order is missing after the promised delivery date,service,0.746431,0,1
+M44-042,C44-021,2026-01-20T09:00:00Z,en,chat,synthetic_no_personal_data,service,train,the carrier has not delivered the cartons,service,0.744133,0,1
+M44-043,C44-022,2026-01-21T02:00:00Z,en,email,synthetic_no_personal_data,quality,train,please investigate the leaking packages in this batch,quality,0.745216,0,1
+M44-044,C44-022,2026-01-21T03:00:00Z,en,email,synthetic_no_personal_data,quality,train,we found crushed cartons during receiving inspection,quality,0.736237,0,1
+M44-045,C44-023,2026-01-21T20:00:00Z,en,portal,synthetic_no_personal_data,finance,train,our payment was posted against the wrong invoice,finance,0.749849,0,1
+M44-046,C44-023,2026-01-21T21:00:00Z,en,portal,synthetic_no_personal_data,finance,train,we need the tax invoice for last month's shipment,finance,0.716689,0,1
+M44-047,C44-024,2026-01-22T14:00:00Z,en,chat,synthetic_no_personal_data,sales,train,send product availability and minimum order quantities,sales,0.738289,0,1
+M44-048,C44-024,2026-01-22T15:00:00Z,en,chat,synthetic_no_personal_data,sales,train,can your sales team discuss distributor pricing,sales,0.745438,0,1
+M44-049,C44-025,2026-01-23T08:00:00Z,id,email,synthetic_no_personal_data,service,train,kurir belum mengantar karton ke gudang,service,0.744411,0,1
+M44-050,C44-025,2026-01-23T09:00:00Z,id,email,synthetic_no_personal_data,service,train,kapan kiriman yang terlambat akan tiba,service,0.722000,0,1
+M44-051,C44-026,2026-01-24T02:00:00Z,id,portal,synthetic_no_personal_data,quality,train,kami menemukan karton penyok saat penerimaan,quality,0.728477,0,1
+M44-052,C44-026,2026-01-24T03:00:00Z,id,portal,synthetic_no_personal_data,quality,train,warna batch berbeda dari sampel yang disetujui,quality,0.722177,0,1
+M44-053,C44-027,2026-01-24T20:00:00Z,id,chat,synthetic_no_personal_data,finance,train,kami membutuhkan faktur pajak untuk kiriman bulan lalu,finance,0.733907,0,1
+M44-054,C44-027,2026-01-24T21:00:00Z,id,chat,synthetic_no_personal_data,finance,train,laporan akun menunjukkan saldo yang tidak jelas,finance,0.714069,0,1
+M44-055,C44-028,2026-01-25T14:00:00Z,id,email,synthetic_no_personal_data,sales,train,bisakah tim penjualan membahas harga distributor,sales,0.754835,0,1
+M44-056,C44-028,2026-01-25T15:00:00Z,id,email,synthetic_no_personal_data,sales,train,mohon bagikan katalog dan syarat promosi terbaru,sales,0.720336,0,1
+M44-057,C44-029,2026-01-26T08:00:00Z,en,portal,synthetic_no_personal_data,service,train,the carrier has not delivered the cartons,service,0.744133,0,1
+M44-058,C44-029,2026-01-26T09:00:00Z,en,portal,synthetic_no_personal_data,service,train,when will the overdue shipment arrive,service,0.710092,0,1
+M44-059,C44-030,2026-01-27T02:00:00Z,en,chat,synthetic_no_personal_data,quality,train,we found crushed cartons during receiving inspection,quality,0.736237,0,1
+M44-060,C44-030,2026-01-27T03:00:00Z,en,chat,synthetic_no_personal_data,quality,train,the batch colour differs from the approved sample,quality,0.720624,0,1
+M44-061,C44-031,2026-01-27T20:00:00Z,en,email,synthetic_no_personal_data,finance,train,we need the tax invoice for last month's shipment,finance,0.716689,0,1
+M44-062,C44-031,2026-01-27T21:00:00Z,en,email,synthetic_no_personal_data,finance,train,the account statement shows an unexplained balance,finance,0.698110,0,1
+M44-063,C44-032,2026-01-28T14:00:00Z,en,portal,synthetic_no_personal_data,sales,train,can your sales team discuss distributor pricing,sales,0.745438,0,1
+M44-064,C44-032,2026-01-28T15:00:00Z,en,portal,synthetic_no_personal_data,sales,train,please share the latest catalogue and promotion terms,sales,0.702563,0,1
+M44-065,C44-033,2026-01-29T08:00:00Z,id,chat,synthetic_no_personal_data,service,train,kapan kiriman yang terlambat akan tiba,service,0.722000,0,1
+M44-066,C44-033,2026-01-29T09:00:00Z,id,chat,synthetic_no_personal_data,service,train,kami perlu kabar tentang keterlambatan pengiriman,service,0.659366,1,1
+M44-067,C44-034,2026-01-30T02:00:00Z,id,email,synthetic_no_personal_data,quality,train,warna batch berbeda dari sampel yang disetujui,quality,0.722177,0,1
+M44-068,C44-034,2026-01-30T03:00:00Z,id,email,synthetic_no_personal_data,quality,train,barang rusak perlu diganti dan diselidiki,quality,0.695679,0,1
+M44-069,C44-035,2026-01-30T20:00:00Z,id,portal,synthetic_no_personal_data,finance,train,laporan akun menunjukkan saldo yang tidak jelas,finance,0.714069,0,1
+M44-070,C44-035,2026-01-30T21:00:00Z,id,portal,synthetic_no_personal_data,finance,train,mohon konfirmasi penerimaan transfer bank,finance,0.675400,1,1
+M44-071,C44-036,2026-01-31T14:00:00Z,id,chat,synthetic_no_personal_data,sales,train,mohon bagikan katalog dan syarat promosi terbaru,sales,0.720336,0,1
+M44-072,C44-036,2026-01-31T15:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kami memerlukan penawaran untuk dua belas palet mi,sales,0.669846,1,1
+M44-073,C44-037,2026-02-01T08:00:00Z,en,email,synthetic_no_personal_data,service,train,when will the overdue shipment arrive,service,0.710092,0,1
+M44-074,C44-037,2026-02-01T09:00:00Z,en,email,synthetic_no_personal_data,service,train,we need an update on the delivery delay,service,0.650575,1,1
+M44-075,C44-038,2026-02-02T02:00:00Z,en,portal,synthetic_no_personal_data,quality,train,the batch colour differs from the approved sample,quality,0.720624,0,1
+M44-076,C44-038,2026-02-02T03:00:00Z,en,portal,synthetic_no_personal_data,quality,train,damaged goods require replacement and investigation,quality,0.687600,0,1
+M44-077,C44-039,2026-02-02T20:00:00Z,en,chat,synthetic_no_personal_data,finance,train,the account statement shows an unexplained balance,finance,0.698110,0,1
+M44-078,C44-039,2026-02-02T21:00:00Z,en,chat,synthetic_no_personal_data,finance,train,please confirm receipt of the bank transfer,finance,0.710607,0,1
+M44-079,C44-040,2026-02-03T14:00:00Z,en,email,synthetic_no_personal_data,sales,train,please share the latest catalogue and promotion terms,sales,0.702563,0,1
+M44-080,C44-040,2026-02-03T15:00:00Z,en,email,synthetic_no_personal_data,sales,train,we need a quotation for twelve pallets of noodles,sales,0.655878,1,1
+M44-081,C44-041,2026-02-04T08:00:00Z,id,portal,synthetic_no_personal_data,service,train,kami perlu kabar tentang keterlambatan pengiriman,service,0.659366,1,1
+M44-082,C44-041,2026-02-04T09:00:00Z,id,portal,synthetic_no_personal_data,service,train,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-083,C44-042,2026-02-05T02:00:00Z,id,chat,synthetic_no_personal_data,quality,train,barang rusak perlu diganti dan diselidiki,quality,0.695679,0,1
+M44-084,C44-042,2026-02-05T03:00:00Z,id,chat,synthetic_no_personal_data,quality,train,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-085,C44-043,2026-02-05T20:00:00Z,id,email,synthetic_no_personal_data,finance,train,mohon konfirmasi penerimaan transfer bank,finance,0.675400,1,1
+M44-086,C44-043,2026-02-05T21:00:00Z,id,email,synthetic_no_personal_data,finance,train,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-087,C44-044,2026-02-06T14:00:00Z,id,portal,synthetic_no_personal_data,sales,train,kami memerlukan penawaran untuk dua belas palet mi,sales,0.669846,1,1
+M44-088,C44-044,2026-02-06T15:00:00Z,id,portal,synthetic_no_personal_data,sales,train,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-089,C44-045,2026-02-07T08:00:00Z,en,chat,synthetic_no_personal_data,service,train,we need an update on the delivery delay,service,0.650575,1,1
+M44-090,C44-045,2026-02-07T09:00:00Z,en,chat,synthetic_no_personal_data,service,train,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-091,C44-046,2026-02-08T02:00:00Z,en,email,synthetic_no_personal_data,quality,train,damaged goods require replacement and investigation,quality,0.687600,0,1
+M44-092,C44-046,2026-02-08T03:00:00Z,en,email,synthetic_no_personal_data,quality,train,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-093,C44-047,2026-02-08T20:00:00Z,en,portal,synthetic_no_personal_data,finance,train,please confirm receipt of the bank transfer,finance,0.710607,0,1
+M44-094,C44-047,2026-02-08T21:00:00Z,en,portal,synthetic_no_personal_data,finance,train,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-095,C44-048,2026-02-09T14:00:00Z,en,chat,synthetic_no_personal_data,sales,train,we need a quotation for twelve pallets of noodles,sales,0.655878,1,1
+M44-096,C44-048,2026-02-09T15:00:00Z,en,chat,synthetic_no_personal_data,sales,train,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-097,C44-049,2026-02-10T08:00:00Z,id,email,synthetic_no_personal_data,service,train,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-098,C44-049,2026-02-10T09:00:00Z,id,email,synthetic_no_personal_data,service,train,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-099,C44-050,2026-02-11T02:00:00Z,id,portal,synthetic_no_personal_data,quality,train,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-100,C44-050,2026-02-11T03:00:00Z,id,portal,synthetic_no_personal_data,quality,train,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-101,C44-051,2026-02-11T20:00:00Z,id,chat,synthetic_no_personal_data,finance,train,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-102,C44-051,2026-02-11T21:00:00Z,id,chat,synthetic_no_personal_data,finance,train,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-103,C44-052,2026-02-12T14:00:00Z,id,email,synthetic_no_personal_data,sales,train,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-104,C44-052,2026-02-12T15:00:00Z,id,email,synthetic_no_personal_data,sales,train,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-105,C44-053,2026-02-13T08:00:00Z,en,portal,synthetic_no_personal_data,service,train,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-106,C44-053,2026-02-13T09:00:00Z,en,portal,synthetic_no_personal_data,service,train,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-107,C44-054,2026-02-14T02:00:00Z,en,chat,synthetic_no_personal_data,quality,train,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-108,C44-054,2026-02-14T03:00:00Z,en,chat,synthetic_no_personal_data,quality,train,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-109,C44-055,2026-02-14T20:00:00Z,en,email,synthetic_no_personal_data,finance,train,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-110,C44-055,2026-02-14T21:00:00Z,en,email,synthetic_no_personal_data,finance,train,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-111,C44-056,2026-02-15T14:00:00Z,en,portal,synthetic_no_personal_data,sales,train,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-112,C44-056,2026-02-15T15:00:00Z,en,portal,synthetic_no_personal_data,sales,train,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-113,C44-057,2026-02-16T08:00:00Z,id,chat,synthetic_no_personal_data,service,train,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-114,C44-057,2026-02-16T09:00:00Z,id,chat,synthetic_no_personal_data,service,train,pesanan belum diterima setelah tanggal yang dijanjikan,service,0.724206,0,1
+M44-115,C44-058,2026-02-17T02:00:00Z,id,email,synthetic_no_personal_data,quality,train,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-116,C44-058,2026-02-17T03:00:00Z,id,email,synthetic_no_personal_data,quality,train,mohon periksa kemasan bocor pada batch ini,quality,0.745734,0,1
+M44-117,C44-059,2026-02-17T20:00:00Z,id,portal,synthetic_no_personal_data,finance,train,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-118,C44-059,2026-02-17T21:00:00Z,id,portal,synthetic_no_personal_data,finance,train,pembayaran kami dicatat pada faktur yang salah,finance,0.746734,0,1
+M44-119,C44-060,2026-02-18T14:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-120,C44-060,2026-02-18T15:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kirim ketersediaan produk dan jumlah pesanan minimum,sales,0.744803,0,1
+M44-121,C44-061,2026-02-19T08:00:00Z,en,email,synthetic_no_personal_data,service,train,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-122,C44-061,2026-02-19T09:00:00Z,en,email,synthetic_no_personal_data,service,train,our order is missing after the promised delivery date,service,0.746431,0,1
+M44-123,C44-062,2026-02-20T02:00:00Z,en,portal,synthetic_no_personal_data,quality,train,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-124,C44-062,2026-02-20T03:00:00Z,en,portal,synthetic_no_personal_data,quality,train,please investigate the leaking packages in this batch,quality,0.745216,0,1
+M44-125,C44-063,2026-02-20T20:00:00Z,en,chat,synthetic_no_personal_data,finance,train,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-126,C44-063,2026-02-20T21:00:00Z,en,chat,synthetic_no_personal_data,finance,train,our payment was posted against the wrong invoice,finance,0.749849,0,1
+M44-127,C44-064,2026-02-21T14:00:00Z,en,email,synthetic_no_personal_data,sales,train,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-128,C44-064,2026-02-21T15:00:00Z,en,email,synthetic_no_personal_data,sales,train,send product availability and minimum order quantities,sales,0.738289,0,1
+M44-129,C44-065,2026-02-22T08:00:00Z,id,portal,synthetic_no_personal_data,service,train,pesanan belum diterima setelah tanggal yang dijanjikan,service,0.724206,0,1
+M44-130,C44-065,2026-02-22T09:00:00Z,id,portal,synthetic_no_personal_data,service,train,kurir belum mengantar karton ke gudang,service,0.744411,0,1
+M44-131,C44-066,2026-02-23T02:00:00Z,id,chat,synthetic_no_personal_data,quality,train,mohon periksa kemasan bocor pada batch ini,quality,0.745734,0,1
+M44-132,C44-066,2026-02-23T03:00:00Z,id,chat,synthetic_no_personal_data,quality,train,kami menemukan karton penyok saat penerimaan,quality,0.728477,0,1
+M44-133,C44-067,2026-02-23T20:00:00Z,id,email,synthetic_no_personal_data,finance,train,pembayaran kami dicatat pada faktur yang salah,finance,0.746734,0,1
+M44-134,C44-067,2026-02-23T21:00:00Z,id,email,synthetic_no_personal_data,finance,train,kami membutuhkan faktur pajak untuk kiriman bulan lalu,finance,0.733907,0,1
+M44-135,C44-068,2026-02-24T14:00:00Z,id,portal,synthetic_no_personal_data,sales,train,kirim ketersediaan produk dan jumlah pesanan minimum,sales,0.744803,0,1
+M44-136,C44-068,2026-02-24T15:00:00Z,id,portal,synthetic_no_personal_data,sales,train,bisakah tim penjualan membahas harga distributor,sales,0.754835,0,1
+M44-137,C44-069,2026-02-25T08:00:00Z,en,chat,synthetic_no_personal_data,service,train,our order is missing after the promised delivery date,service,0.746431,0,1
+M44-138,C44-069,2026-02-25T09:00:00Z,en,chat,synthetic_no_personal_data,service,train,the carrier has not delivered the cartons,service,0.744133,0,1
+M44-139,C44-070,2026-02-26T02:00:00Z,en,email,synthetic_no_personal_data,quality,train,please investigate the leaking packages in this batch,quality,0.745216,0,1
+M44-140,C44-070,2026-02-26T03:00:00Z,en,email,synthetic_no_personal_data,quality,train,we found crushed cartons during receiving inspection,quality,0.736237,0,1
+M44-141,C44-071,2026-02-26T20:00:00Z,en,portal,synthetic_no_personal_data,finance,train,our payment was posted against the wrong invoice,finance,0.749849,0,1
+M44-142,C44-071,2026-02-26T21:00:00Z,en,portal,synthetic_no_personal_data,finance,train,we need the tax invoice for last month's shipment,finance,0.716689,0,1
+M44-143,C44-072,2026-02-27T14:00:00Z,en,chat,synthetic_no_personal_data,sales,train,send product availability and minimum order quantities,sales,0.738289,0,1
+M44-144,C44-072,2026-02-27T15:00:00Z,en,chat,synthetic_no_personal_data,sales,train,can your sales team discuss distributor pricing,sales,0.745438,0,1
+M44-145,C44-073,2026-02-28T08:00:00Z,id,email,synthetic_no_personal_data,service,train,kurir belum mengantar karton ke gudang,service,0.744411,0,1
+M44-146,C44-073,2026-02-28T09:00:00Z,id,email,synthetic_no_personal_data,service,train,kapan kiriman yang terlambat akan tiba,service,0.722000,0,1
+M44-147,C44-074,2026-03-01T02:00:00Z,id,portal,synthetic_no_personal_data,quality,train,kami menemukan karton penyok saat penerimaan,quality,0.728477,0,1
+M44-148,C44-074,2026-03-01T03:00:00Z,id,portal,synthetic_no_personal_data,quality,train,warna batch berbeda dari sampel yang disetujui,quality,0.722177,0,1
+M44-149,C44-075,2026-03-01T20:00:00Z,id,chat,synthetic_no_personal_data,finance,train,kami membutuhkan faktur pajak untuk kiriman bulan lalu,finance,0.733907,0,1
+M44-150,C44-075,2026-03-01T21:00:00Z,id,chat,synthetic_no_personal_data,finance,train,laporan akun menunjukkan saldo yang tidak jelas,finance,0.714069,0,1
+M44-151,C44-076,2026-03-02T14:00:00Z,id,email,synthetic_no_personal_data,sales,train,bisakah tim penjualan membahas harga distributor,sales,0.754835,0,1
+M44-152,C44-076,2026-03-02T15:00:00Z,id,email,synthetic_no_personal_data,sales,train,mohon bagikan katalog dan syarat promosi terbaru,sales,0.720336,0,1
+M44-153,C44-077,2026-03-03T08:00:00Z,en,portal,synthetic_no_personal_data,service,train,the carrier has not delivered the cartons,service,0.744133,0,1
+M44-154,C44-077,2026-03-03T09:00:00Z,en,portal,synthetic_no_personal_data,service,train,when will the overdue shipment arrive,service,0.710092,0,1
+M44-155,C44-078,2026-03-04T02:00:00Z,en,chat,synthetic_no_personal_data,quality,train,we found crushed cartons during receiving inspection,quality,0.736237,0,1
+M44-156,C44-078,2026-03-04T03:00:00Z,en,chat,synthetic_no_personal_data,quality,train,the batch colour differs from the approved sample,quality,0.720624,0,1
+M44-157,C44-079,2026-03-04T20:00:00Z,en,email,synthetic_no_personal_data,finance,train,we need the tax invoice for last month's shipment,finance,0.716689,0,1
+M44-158,C44-079,2026-03-04T21:00:00Z,en,email,synthetic_no_personal_data,finance,train,the account statement shows an unexplained balance,finance,0.698110,0,1
+M44-159,C44-080,2026-03-05T14:00:00Z,en,portal,synthetic_no_personal_data,sales,train,can your sales team discuss distributor pricing,sales,0.745438,0,1
+M44-160,C44-080,2026-03-05T15:00:00Z,en,portal,synthetic_no_personal_data,sales,train,please share the latest catalogue and promotion terms,sales,0.702563,0,1
+M44-161,C44-081,2026-03-06T08:00:00Z,id,chat,synthetic_no_personal_data,service,train,kapan kiriman yang terlambat akan tiba,service,0.722000,0,1
+M44-162,C44-081,2026-03-06T09:00:00Z,id,chat,synthetic_no_personal_data,service,train,kami perlu kabar tentang keterlambatan pengiriman,service,0.659366,1,1
+M44-163,C44-082,2026-03-07T02:00:00Z,id,email,synthetic_no_personal_data,quality,train,warna batch berbeda dari sampel yang disetujui,quality,0.722177,0,1
+M44-164,C44-082,2026-03-07T03:00:00Z,id,email,synthetic_no_personal_data,quality,train,barang rusak perlu diganti dan diselidiki,quality,0.695679,0,1
+M44-165,C44-083,2026-03-07T20:00:00Z,id,portal,synthetic_no_personal_data,finance,train,laporan akun menunjukkan saldo yang tidak jelas,finance,0.714069,0,1
+M44-166,C44-083,2026-03-07T21:00:00Z,id,portal,synthetic_no_personal_data,finance,train,mohon konfirmasi penerimaan transfer bank,finance,0.675400,1,1
+M44-167,C44-084,2026-03-08T14:00:00Z,id,chat,synthetic_no_personal_data,sales,train,mohon bagikan katalog dan syarat promosi terbaru,sales,0.720336,0,1
+M44-168,C44-084,2026-03-08T15:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kami memerlukan penawaran untuk dua belas palet mi,sales,0.669846,1,1
+M44-169,C44-085,2026-03-09T08:00:00Z,en,email,synthetic_no_personal_data,service,train,when will the overdue shipment arrive,service,0.710092,0,1
+M44-170,C44-085,2026-03-09T09:00:00Z,en,email,synthetic_no_personal_data,service,train,we need an update on the delivery delay,service,0.650575,1,1
+M44-171,C44-086,2026-03-10T02:00:00Z,en,portal,synthetic_no_personal_data,quality,train,the batch colour differs from the approved sample,quality,0.720624,0,1
+M44-172,C44-086,2026-03-10T03:00:00Z,en,portal,synthetic_no_personal_data,quality,train,damaged goods require replacement and investigation,quality,0.687600,0,1
+M44-173,C44-087,2026-03-10T20:00:00Z,en,chat,synthetic_no_personal_data,finance,train,the account statement shows an unexplained balance,finance,0.698110,0,1
+M44-174,C44-087,2026-03-10T21:00:00Z,en,chat,synthetic_no_personal_data,finance,train,please confirm receipt of the bank transfer,finance,0.710607,0,1
+M44-175,C44-088,2026-03-11T14:00:00Z,en,email,synthetic_no_personal_data,sales,train,please share the latest catalogue and promotion terms,sales,0.702563,0,1
+M44-176,C44-088,2026-03-11T15:00:00Z,en,email,synthetic_no_personal_data,sales,train,we need a quotation for twelve pallets of noodles,sales,0.655878,1,1
+M44-177,C44-089,2026-03-12T08:00:00Z,id,portal,synthetic_no_personal_data,service,train,kami perlu kabar tentang keterlambatan pengiriman,service,0.659366,1,1
+M44-178,C44-089,2026-03-12T09:00:00Z,id,portal,synthetic_no_personal_data,service,train,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-179,C44-090,2026-03-13T02:00:00Z,id,chat,synthetic_no_personal_data,quality,train,barang rusak perlu diganti dan diselidiki,quality,0.695679,0,1
+M44-180,C44-090,2026-03-13T03:00:00Z,id,chat,synthetic_no_personal_data,quality,train,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-181,C44-091,2026-03-13T20:00:00Z,id,email,synthetic_no_personal_data,finance,train,mohon konfirmasi penerimaan transfer bank,finance,0.675400,1,1
+M44-182,C44-091,2026-03-13T21:00:00Z,id,email,synthetic_no_personal_data,finance,train,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-183,C44-092,2026-03-14T14:00:00Z,id,portal,synthetic_no_personal_data,sales,train,kami memerlukan penawaran untuk dua belas palet mi,sales,0.669846,1,1
+M44-184,C44-092,2026-03-14T15:00:00Z,id,portal,synthetic_no_personal_data,sales,train,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-185,C44-093,2026-03-15T08:00:00Z,en,chat,synthetic_no_personal_data,service,train,we need an update on the delivery delay,service,0.650575,1,1
+M44-186,C44-093,2026-03-15T09:00:00Z,en,chat,synthetic_no_personal_data,service,train,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-187,C44-094,2026-03-16T02:00:00Z,en,email,synthetic_no_personal_data,quality,train,damaged goods require replacement and investigation,quality,0.687600,0,1
+M44-188,C44-094,2026-03-16T03:00:00Z,en,email,synthetic_no_personal_data,quality,train,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-189,C44-095,2026-03-16T20:00:00Z,en,portal,synthetic_no_personal_data,finance,train,please confirm receipt of the bank transfer,finance,0.710607,0,1
+M44-190,C44-095,2026-03-16T21:00:00Z,en,portal,synthetic_no_personal_data,finance,train,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-191,C44-096,2026-03-17T14:00:00Z,en,chat,synthetic_no_personal_data,sales,train,we need a quotation for twelve pallets of noodles,sales,0.655878,1,1
+M44-192,C44-096,2026-03-17T15:00:00Z,en,chat,synthetic_no_personal_data,sales,train,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-193,C44-097,2026-03-18T08:00:00Z,id,email,synthetic_no_personal_data,service,train,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-194,C44-097,2026-03-18T09:00:00Z,id,email,synthetic_no_personal_data,service,train,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-195,C44-098,2026-03-19T02:00:00Z,id,portal,synthetic_no_personal_data,quality,train,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-196,C44-098,2026-03-19T03:00:00Z,id,portal,synthetic_no_personal_data,quality,train,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-197,C44-099,2026-03-19T20:00:00Z,id,chat,synthetic_no_personal_data,finance,train,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-198,C44-099,2026-03-19T21:00:00Z,id,chat,synthetic_no_personal_data,finance,train,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-199,C44-100,2026-03-20T14:00:00Z,id,email,synthetic_no_personal_data,sales,train,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-200,C44-100,2026-03-20T15:00:00Z,id,email,synthetic_no_personal_data,sales,train,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-201,C44-101,2026-03-21T08:00:00Z,en,portal,synthetic_no_personal_data,service,train,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-202,C44-101,2026-03-21T09:00:00Z,en,portal,synthetic_no_personal_data,service,train,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-203,C44-102,2026-03-22T02:00:00Z,en,chat,synthetic_no_personal_data,quality,train,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-204,C44-102,2026-03-22T03:00:00Z,en,chat,synthetic_no_personal_data,quality,train,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-205,C44-103,2026-03-22T20:00:00Z,en,email,synthetic_no_personal_data,finance,train,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-206,C44-103,2026-03-22T21:00:00Z,en,email,synthetic_no_personal_data,finance,train,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-207,C44-104,2026-03-23T14:00:00Z,en,portal,synthetic_no_personal_data,sales,train,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-208,C44-104,2026-03-23T15:00:00Z,en,portal,synthetic_no_personal_data,sales,train,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-209,C44-105,2026-03-24T08:00:00Z,id,chat,synthetic_no_personal_data,service,train,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-210,C44-105,2026-03-24T09:00:00Z,id,chat,synthetic_no_personal_data,service,train,pesanan belum diterima setelah tanggal yang dijanjikan,service,0.724206,0,1
+M44-211,C44-106,2026-03-25T02:00:00Z,id,email,synthetic_no_personal_data,quality,train,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-212,C44-106,2026-03-25T03:00:00Z,id,email,synthetic_no_personal_data,quality,train,mohon periksa kemasan bocor pada batch ini,quality,0.745734,0,1
+M44-213,C44-107,2026-03-25T20:00:00Z,id,portal,synthetic_no_personal_data,finance,train,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-214,C44-107,2026-03-25T21:00:00Z,id,portal,synthetic_no_personal_data,finance,train,pembayaran kami dicatat pada faktur yang salah,finance,0.746734,0,1
+M44-215,C44-108,2026-03-26T14:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-216,C44-108,2026-03-26T15:00:00Z,id,chat,synthetic_no_personal_data,sales,train,kirim ketersediaan produk dan jumlah pesanan minimum,sales,0.744803,0,1
+M44-217,C44-109,2026-03-27T08:00:00Z,en,email,synthetic_no_personal_data,service,train,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-218,C44-109,2026-03-27T09:00:00Z,en,email,synthetic_no_personal_data,service,train,our order is missing after the promised delivery date,service,0.746431,0,1
+M44-219,C44-110,2026-03-28T02:00:00Z,en,portal,synthetic_no_personal_data,quality,train,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-220,C44-110,2026-03-28T03:00:00Z,en,portal,synthetic_no_personal_data,quality,train,please investigate the leaking packages in this batch,quality,0.745216,0,1
+M44-221,C44-111,2026-03-28T20:00:00Z,en,chat,synthetic_no_personal_data,finance,train,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-222,C44-111,2026-03-28T21:00:00Z,en,chat,synthetic_no_personal_data,finance,train,our payment was posted against the wrong invoice,finance,0.749849,0,1
+M44-223,C44-112,2026-03-29T14:00:00Z,en,email,synthetic_no_personal_data,sales,train,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-224,C44-112,2026-03-29T15:00:00Z,en,email,synthetic_no_personal_data,sales,train,send product availability and minimum order quantities,sales,0.738289,0,1
+M44-225,C44-113,2026-03-30T08:00:00Z,id,portal,synthetic_no_personal_data,service,train,pesanan belum diterima setelah tanggal yang dijanjikan,service,0.724206,0,1
+M44-226,C44-113,2026-03-30T09:00:00Z,id,portal,synthetic_no_personal_data,service,train,kurir belum mengantar karton ke gudang,service,0.744411,0,1
+M44-227,C44-114,2026-03-31T02:00:00Z,id,chat,synthetic_no_personal_data,quality,train,mohon periksa kemasan bocor pada batch ini,quality,0.745734,0,1
+M44-228,C44-114,2026-03-31T03:00:00Z,id,chat,synthetic_no_personal_data,quality,train,kami menemukan karton penyok saat penerimaan,quality,0.728477,0,1
+M44-229,C44-115,2026-03-31T20:00:00Z,id,email,synthetic_no_personal_data,finance,train,pembayaran kami dicatat pada faktur yang salah,finance,0.746734,0,1
+M44-230,C44-115,2026-03-31T21:00:00Z,id,email,synthetic_no_personal_data,finance,train,kami membutuhkan faktur pajak untuk kiriman bulan lalu,finance,0.733907,0,1
+M44-231,C44-116,2026-04-01T14:00:00Z,id,portal,synthetic_no_personal_data,sales,train,kirim ketersediaan produk dan jumlah pesanan minimum,sales,0.744803,0,1
+M44-232,C44-116,2026-04-01T15:00:00Z,id,portal,synthetic_no_personal_data,sales,train,bisakah tim penjualan membahas harga distributor,sales,0.754835,0,1
+M44-233,C44-117,2026-04-02T08:00:00Z,en,chat,synthetic_no_personal_data,service,train,our order is missing after the promised delivery date,service,0.746431,0,1
+M44-234,C44-117,2026-04-02T09:00:00Z,en,chat,synthetic_no_personal_data,service,train,the carrier has not delivered the cartons,service,0.744133,0,1
+M44-235,C44-118,2026-04-03T02:00:00Z,en,email,synthetic_no_personal_data,quality,train,please investigate the leaking packages in this batch,quality,0.745216,0,1
+M44-236,C44-118,2026-04-03T03:00:00Z,en,email,synthetic_no_personal_data,quality,train,we found crushed cartons during receiving inspection,quality,0.736237,0,1
+M44-237,C44-119,2026-04-03T20:00:00Z,en,portal,synthetic_no_personal_data,finance,train,our payment was posted against the wrong invoice,finance,0.749849,0,1
+M44-238,C44-119,2026-04-03T21:00:00Z,en,portal,synthetic_no_personal_data,finance,train,we need the tax invoice for last month's shipment,finance,0.716689,0,1
+M44-239,C44-120,2026-04-04T14:00:00Z,en,chat,synthetic_no_personal_data,sales,train,send product availability and minimum order quantities,sales,0.738289,0,1
+M44-240,C44-120,2026-04-04T15:00:00Z,en,chat,synthetic_no_personal_data,sales,train,can your sales team discuss distributor pricing,sales,0.745438,0,1
+M44-241,C44-121,2026-04-05T08:00:00Z,id,email,synthetic_no_personal_data,service,train,kurir belum mengantar karton ke gudang,service,0.744411,0,1
+M44-242,C44-121,2026-04-05T09:00:00Z,id,email,synthetic_no_personal_data,service,train,kapan kiriman yang terlambat akan tiba,service,0.722000,0,1
+M44-243,C44-122,2026-04-06T02:00:00Z,id,portal,synthetic_no_personal_data,quality,train,kami menemukan karton penyok saat penerimaan,quality,0.728477,0,1
+M44-244,C44-122,2026-04-06T03:00:00Z,id,portal,synthetic_no_personal_data,quality,train,warna batch berbeda dari sampel yang disetujui,quality,0.722177,0,1
+M44-245,C44-123,2026-04-06T20:00:00Z,id,chat,synthetic_no_personal_data,finance,train,kami membutuhkan faktur pajak untuk kiriman bulan lalu,finance,0.733907,0,1
+M44-246,C44-123,2026-04-06T21:00:00Z,id,chat,synthetic_no_personal_data,finance,train,laporan akun menunjukkan saldo yang tidak jelas,finance,0.714069,0,1
+M44-247,C44-124,2026-04-07T14:00:00Z,id,email,synthetic_no_personal_data,sales,train,bisakah tim penjualan membahas harga distributor,sales,0.754835,0,1
+M44-248,C44-124,2026-04-07T15:00:00Z,id,email,synthetic_no_personal_data,sales,train,mohon bagikan katalog dan syarat promosi terbaru,sales,0.720336,0,1
+M44-249,C44-125,2026-04-08T08:00:00Z,en,portal,synthetic_no_personal_data,service,train,the carrier has not delivered the cartons,service,0.744133,0,1
+M44-250,C44-125,2026-04-08T09:00:00Z,en,portal,synthetic_no_personal_data,service,train,when will the overdue shipment arrive,service,0.710092,0,1
+M44-251,C44-126,2026-04-09T02:00:00Z,en,chat,synthetic_no_personal_data,quality,train,we found crushed cartons during receiving inspection,quality,0.736237,0,1
+M44-252,C44-126,2026-04-09T03:00:00Z,en,chat,synthetic_no_personal_data,quality,train,the batch colour differs from the approved sample,quality,0.720624,0,1
+M44-253,C44-127,2026-04-09T20:00:00Z,en,email,synthetic_no_personal_data,finance,train,we need the tax invoice for last month's shipment,finance,0.716689,0,1
+M44-254,C44-127,2026-04-09T21:00:00Z,en,email,synthetic_no_personal_data,finance,train,the account statement shows an unexplained balance,finance,0.698110,0,1
+M44-255,C44-128,2026-04-10T14:00:00Z,en,portal,synthetic_no_personal_data,sales,train,can your sales team discuss distributor pricing,sales,0.745438,0,1
+M44-256,C44-128,2026-04-10T15:00:00Z,en,portal,synthetic_no_personal_data,sales,train,please share the latest catalogue and promotion terms,sales,0.702563,0,1
+M44-257,C44-129,2026-04-11T08:00:00Z,id,chat,synthetic_no_personal_data,service,test,kapan kiriman yang terlambat akan tiba,service,0.722000,0,1
+M44-258,C44-129,2026-04-11T09:00:00Z,id,chat,synthetic_no_personal_data,service,test,kami perlu kabar tentang keterlambatan pengiriman,service,0.659366,1,1
+M44-259,C44-130,2026-04-12T02:00:00Z,id,email,synthetic_no_personal_data,quality,test,warna batch berbeda dari sampel yang disetujui,quality,0.722177,0,1
+M44-260,C44-130,2026-04-12T03:00:00Z,id,email,synthetic_no_personal_data,quality,test,barang rusak perlu diganti dan diselidiki,quality,0.695679,0,1
+M44-261,C44-131,2026-04-12T20:00:00Z,id,portal,synthetic_no_personal_data,finance,test,laporan akun menunjukkan saldo yang tidak jelas,finance,0.714069,0,1
+M44-262,C44-131,2026-04-12T21:00:00Z,id,portal,synthetic_no_personal_data,finance,test,mohon konfirmasi penerimaan transfer bank,finance,0.675400,1,1
+M44-263,C44-132,2026-04-13T14:00:00Z,id,chat,synthetic_no_personal_data,sales,test,mohon bagikan katalog dan syarat promosi terbaru,sales,0.720336,0,1
+M44-264,C44-132,2026-04-13T15:00:00Z,id,chat,synthetic_no_personal_data,sales,test,kami memerlukan penawaran untuk dua belas palet mi,sales,0.669846,1,1
+M44-265,C44-133,2026-04-14T08:00:00Z,en,email,synthetic_no_personal_data,service,test,when will the overdue shipment arrive,service,0.710092,0,1
+M44-266,C44-133,2026-04-14T09:00:00Z,en,email,synthetic_no_personal_data,service,test,we need an update on the delivery delay,service,0.650575,1,1
+M44-267,C44-134,2026-04-15T02:00:00Z,en,portal,synthetic_no_personal_data,quality,test,the batch colour differs from the approved sample,quality,0.720624,0,1
+M44-268,C44-134,2026-04-15T03:00:00Z,en,portal,synthetic_no_personal_data,quality,test,damaged goods require replacement and investigation,quality,0.687600,0,1
+M44-269,C44-135,2026-04-15T20:00:00Z,en,chat,synthetic_no_personal_data,finance,test,the account statement shows an unexplained balance,finance,0.698110,0,1
+M44-270,C44-135,2026-04-15T21:00:00Z,en,chat,synthetic_no_personal_data,finance,test,please confirm receipt of the bank transfer,finance,0.710607,0,1
+M44-271,C44-136,2026-04-16T14:00:00Z,en,email,synthetic_no_personal_data,sales,test,please share the latest catalogue and promotion terms,sales,0.702563,0,1
+M44-272,C44-136,2026-04-16T15:00:00Z,en,email,synthetic_no_personal_data,sales,test,we need a quotation for twelve pallets of noodles,sales,0.655878,1,1
+M44-273,C44-137,2026-04-17T08:00:00Z,id,portal,synthetic_no_personal_data,service,test,kami perlu kabar tentang keterlambatan pengiriman,service,0.659366,1,1
+M44-274,C44-137,2026-04-17T09:00:00Z,id,portal,synthetic_no_personal_data,service,test,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-275,C44-138,2026-04-18T02:00:00Z,id,chat,synthetic_no_personal_data,quality,test,barang rusak perlu diganti dan diselidiki,quality,0.695679,0,1
+M44-276,C44-138,2026-04-18T03:00:00Z,id,chat,synthetic_no_personal_data,quality,test,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-277,C44-139,2026-04-18T20:00:00Z,id,email,synthetic_no_personal_data,finance,test,mohon konfirmasi penerimaan transfer bank,finance,0.675400,1,1
+M44-278,C44-139,2026-04-18T21:00:00Z,id,email,synthetic_no_personal_data,finance,test,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-279,C44-140,2026-04-19T14:00:00Z,id,portal,synthetic_no_personal_data,sales,test,kami memerlukan penawaran untuk dua belas palet mi,sales,0.669846,1,1
+M44-280,C44-140,2026-04-19T15:00:00Z,id,portal,synthetic_no_personal_data,sales,test,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-281,C44-141,2026-04-20T08:00:00Z,en,chat,synthetic_no_personal_data,service,test,we need an update on the delivery delay,service,0.650575,1,1
+M44-282,C44-141,2026-04-20T09:00:00Z,en,chat,synthetic_no_personal_data,service,test,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-283,C44-142,2026-04-21T02:00:00Z,en,email,synthetic_no_personal_data,quality,test,damaged goods require replacement and investigation,quality,0.687600,0,1
+M44-284,C44-142,2026-04-21T03:00:00Z,en,email,synthetic_no_personal_data,quality,test,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-285,C44-143,2026-04-21T20:00:00Z,en,portal,synthetic_no_personal_data,finance,test,please confirm receipt of the bank transfer,finance,0.710607,0,1
+M44-286,C44-143,2026-04-21T21:00:00Z,en,portal,synthetic_no_personal_data,finance,test,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-287,C44-144,2026-04-22T14:00:00Z,en,chat,synthetic_no_personal_data,sales,test,we need a quotation for twelve pallets of noodles,sales,0.655878,1,1
+M44-288,C44-144,2026-04-22T15:00:00Z,en,chat,synthetic_no_personal_data,sales,test,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-289,C44-145,2026-04-23T08:00:00Z,id,email,synthetic_no_personal_data,service,test,pengiriman terlambat dan belum tiba di gudang kami,service,0.747920,0,1
+M44-290,C44-145,2026-04-23T09:00:00Z,en,email,synthetic_no_personal_data,service,test,the invoice is ready but the delivery is still late,service,0.500830,1,1
+M44-291,C44-146,2026-04-24T02:00:00Z,id,portal,synthetic_no_personal_data,quality,test,karton tiba dalam kondisi rusak dan segelnya terbuka,quality,0.723092,0,1
+M44-292,C44-146,2026-04-24T03:00:00Z,en,portal,synthetic_no_personal_data,quality,test,thank you for replacing the damaged cartons,quality,0.388732,1,1
+M44-293,C44-147,2026-04-24T20:00:00Z,id,chat,synthetic_no_personal_data,finance,test,jumlah faktur tidak sesuai dengan pesanan pembelian,finance,0.714642,0,1
+M44-294,C44-147,2026-04-24T21:00:00Z,en,chat,synthetic_no_personal_data,finance,test,the shipment arrived but the invoice amount is wrong,finance,0.424616,1,1
+M44-295,C44-148,2026-04-25T14:00:00Z,id,email,synthetic_no_personal_data,sales,test,mohon kirim harga untuk katalog kopi terbaru,sales,0.741976,0,1
+M44-296,C44-148,2026-04-25T15:00:00Z,en,email,synthetic_no_personal_data,sales,test,after the quality review please quote the replacement order,quality,0.320403,1,0
+M44-297,C44-149,2026-04-26T08:00:00Z,en,portal,synthetic_no_personal_data,service,test,delivery is late and has not reached our warehouse,service,0.751726,0,1
+M44-298,C44-149,2026-04-26T09:00:00Z,en,portal,synthetic_no_personal_data,service,test,the invoice is ready but the delivery is still late,service,0.500830,1,1
+M44-299,C44-150,2026-04-27T02:00:00Z,en,chat,synthetic_no_personal_data,quality,test,cartons arrived damaged and several seals are broken,quality,0.727860,0,1
+M44-300,C44-150,2026-04-27T03:00:00Z,en,chat,synthetic_no_personal_data,quality,test,thank you for replacing the damaged cartons,quality,0.388732,1,1
+M44-301,C44-151,2026-04-27T20:00:00Z,en,email,synthetic_no_personal_data,finance,test,the invoice total does not match our purchase order,finance,0.710477,0,1
+M44-302,C44-151,2026-04-27T21:00:00Z,en,email,synthetic_no_personal_data,finance,test,the shipment arrived but the invoice amount is wrong,finance,0.424616,1,1
+M44-303,C44-152,2026-04-28T14:00:00Z,en,portal,synthetic_no_personal_data,sales,test,please quote prices for the new coffee catalogue,sales,0.725649,0,1
+M44-304,C44-152,2026-04-28T15:00:00Z,en,portal,synthetic_no_personal_data,sales,test,after the quality review please quote the replacement order,quality,0.320403,1,0
+M44-305,C44-153,2026-04-29T08:00:00Z,id,chat,synthetic_no_personal_data,service,test,mohon lacak kiriman dan konfirmasi waktu kedatangan,service,0.719467,0,1
+M44-306,C44-153,2026-04-29T09:00:00Z,en,chat,synthetic_no_personal_data,service,test,the invoice is ready but the delivery is still late,service,0.500830,1,1
+M44-307,C44-154,2026-04-30T02:00:00Z,id,email,synthetic_no_personal_data,quality,test,produk berbau tidak biasa dan perlu pemeriksaan mutu,quality,0.734702,0,1
+M44-308,C44-154,2026-04-30T03:00:00Z,en,email,synthetic_no_personal_data,quality,test,thank you for replacing the damaged cartons,quality,0.388732,1,1
+M44-309,C44-155,2026-04-30T20:00:00Z,id,portal,synthetic_no_personal_data,finance,test,mohon kirim salinan nota kredit yang belum diterima,finance,0.708556,0,1
+M44-310,C44-155,2026-04-30T21:00:00Z,en,portal,synthetic_no_personal_data,finance,test,the shipment arrived but the invoice amount is wrong,finance,0.424616,1,1
+M44-311,C44-156,2026-05-01T14:00:00Z,id,chat,synthetic_no_personal_data,sales,test,kami ingin memesan rangkaian produk musiman,sales,0.737168,0,1
+M44-312,C44-156,2026-05-01T15:00:00Z,en,chat,synthetic_no_personal_data,sales,test,after the quality review please quote the replacement order,quality,0.320403,1,0
+M44-313,C44-157,2026-05-02T08:00:00Z,en,email,synthetic_no_personal_data,service,test,please trace the delayed shipment and confirm arrival,service,0.723146,0,1
+M44-314,C44-157,2026-05-02T09:00:00Z,en,email,synthetic_no_personal_data,service,test,the invoice is ready but the delivery is still late,service,0.500830,1,1
+M44-315,C44-158,2026-05-03T02:00:00Z,en,portal,synthetic_no_personal_data,quality,test,the product smells unusual and needs quality review,quality,0.733023,0,1
+M44-316,C44-158,2026-05-03T03:00:00Z,en,portal,synthetic_no_personal_data,quality,test,thank you for replacing the damaged cartons,quality,0.388732,1,1
+M44-317,C44-159,2026-05-03T20:00:00Z,en,chat,synthetic_no_personal_data,finance,test,please send a copy of the outstanding credit note,finance,0.739210,0,1
+M44-318,C44-159,2026-05-03T21:00:00Z,en,chat,synthetic_no_personal_data,finance,test,the shipment arrived but the invoice amount is wrong,finance,0.424616,1,1
+M44-319,C44-160,2026-05-04T14:00:00Z,en,email,synthetic_no_personal_data,sales,test,we want to place an order for the seasonal range,sales,0.741774,0,1
+M44-320,C44-160,2026-05-04T15:00:00Z,en,email,synthetic_no_personal_data,sales,test,after the quality review please quote the replacement order,quality,0.320403,1,0

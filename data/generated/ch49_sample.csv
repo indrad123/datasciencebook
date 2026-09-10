@@ -1,0 +1,9 @@
+proposal_id,model_approach,input_modality,annual_packages,baseline_error_rate,candidate_error_rate,absolute_error_reduction,corrected_decisions,value_per_corrected_decision_idr,gross_incremental_value_idr,training_runs,training_cost_per_run_idr,annual_inferences,inference_cost_per_case_idr,engineering_monitoring_cost_idr,annual_lifecycle_cost_idr,annual_net_value_idr,data_readiness,baseline_readiness,operations_readiness,governance_readiness,minimum_readiness,recommendation
+P49-01,Custom CNN cloud,images,500000,0.080,0.060,0.020,10000,18000,180000000,12,2500000,500000,35,190000000,237500000,-57500000,0.82,0.90,0.64,0.76,0.64,simpler-baseline
+P49-02,Transfer CNN cloud,images,500000,0.080,0.055,0.025,12500,18000,225000000,6,1200000,500000,22,110000000,128200000,96800000,0.84,0.90,0.78,0.81,0.78,pilot
+P49-03,Compressed edge CNN,images,500000,0.080,0.058,0.022,11000,18000,198000000,8,1500000,500000,12,135000000,153000000,45000000,0.80,0.90,0.86,0.74,0.74,pilot
+P49-04,Large vision transformer,images,500000,0.080,0.052,0.028,14000,18000,252000000,15,5000000,500000,80,235000000,350000000,-98000000,0.86,0.90,0.70,0.75,0.70,simpler-baseline
+P49-05,Low-data custom CNN,images,500000,0.080,0.065,0.015,7500,18000,135000000,10,1800000,500000,35,120000000,155500000,-20500000,0.48,0.90,0.72,0.73,0.48,simpler-baseline
+P49-06,Third-party vision API,images,500000,0.080,0.054,0.026,13000,18000,234000000,0,0,500000,110,95000000,150000000,84000000,0.78,0.90,0.83,0.35,0.35,simpler-baseline
+P49-07,Quantized edge transfer,images,500000,0.080,0.057,0.023,11500,18000,207000000,6,1000000,500000,8,105000000,115000000,92000000,0.84,0.90,0.88,0.82,0.82,pilot
+P49-08,Maximum-accuracy ensemble,images,500000,0.080,0.048,0.032,16000,18000,288000000,20,6000000,500000,120,270000000,450000000,-162000000,0.88,0.90,0.68,0.72,0.68,simpler-baseline

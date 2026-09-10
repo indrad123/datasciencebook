@@ -1,0 +1,17 @@
+field,type,unit,description,allowed_values_or_rule,missingness
+distributor_id,text,identifier,Synthetic regional-distributor identifier,D43-001 through D43-080,none
+market,text,category,Illustrative market context for eligibility,SEA; MEA; EU; AMER,none
+product_id,text,identifier,Synthetic catalogue-product identifier,SKU-01 through SKU-12,none
+product_family,text,category,Illustrative assortment family,noodles; spices; coffee; tea,none
+training_interaction_count,integer,implicit count,Positive interaction strength remaining after chronological holdout,0 through 5,none
+held_out_relevant,integer,binary indicator,Whether the item is the distributor's later synthetic relevant choice,0; 1,none
+seen_in_training,integer,binary indicator,Whether the distributor interacted with the item in training,0; 1,none
+stock_available,integer,binary indicator,Whether the product is available at recommendation time,0; 1,none
+market_eligible,integer,binary indicator,Whether the product passes the illustrative market rule,0; 1,none
+popularity_score,decimal,interaction count,Portfolio-wide sum of training interaction strengths,nonnegative,none
+latent_score,decimal,reconstructed interaction score,Three-factor truncated-SVD compatibility score,finite number,none
+popularity_unseen_rank,integer,rank,Popularity position among items unseen by this distributor,positive integer,seen items only
+latent_unseen_rank,integer,rank,Latent-score position among items unseen by this distributor,positive integer,seen items only
+final_business_score,decimal,composite score,Latent score minus popularity concentration penalty plus unseen-family bonus,finite number,none
+final_eligible_rank,integer,rank,Composite-score position after unseen stock and market rules,positive integer,ineligible or seen items only
+recommended_top_5,integer,binary indicator,Whether the item enters the constrained final shortlist of up to five products,0; 1,none
