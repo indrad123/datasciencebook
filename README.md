@@ -49,7 +49,12 @@ src/datasciencebook/
 tests/
 exercises/
 solutions/
-figures/
+publication/
+  figure_manifest.csv
+  figure_style.py
+  figures/
+    source/
+    ebook/
 ```
 
 ## Data statement
